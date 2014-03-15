@@ -1,4 +1,4 @@
-from bottle import route, run, get, request, template
+from bottle import route, run, request, template, response
 from json import dumps
 from urllib import urlopen
 from analysis import analyze_text
@@ -17,9 +17,10 @@ def fo():
 	
 	print "/fo with callback=" + callback + " text_link=" + text_link + " skip= " + str(skip)
 	
-	text = urlopen(text_link).read()
-	
+	text = urlopen(text_link).read()	
 	char_analysis = analyze_text(text, 1, skip)
+	
+	response.set_header("Access-Control-Allow-Origin", "*")
 	return callback + "( " + dumps(char_analysis, indent=2) + " )"
 
 @route('/so')
@@ -33,8 +34,9 @@ def so():
 	print "/so with callback=" + callback + " text_link=" + text_link + " skip= " + str(skip)
 	
 	text = urlopen(text_link).read()
-	
 	char_analysis = analyze_text(text, 2, skip)
+	
+	response.set_header("Access-Control-Allow-Origin", "*")
 	return callback + "(" + dumps(char_analysis) + ")"
 
 @route('/to')
@@ -48,8 +50,14 @@ def to():
 	print "/to with callback=" + callback + " text_link=" + text_link + " skip= " + str(skip)
 	
 	text = urlopen(text_link).read()
-	
 	char_analysis = analyze_text(text, 3, skip)
+	
+	response.set_header("Access-Control-Allow-Origin", "*")
 	return callback + "(" + dumps(char_analysis) + ")"
+
+@route('/pc')
+def pc():
+	""""""
+	pass
 
 run(host='localhost', port=8080)
