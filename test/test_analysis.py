@@ -89,6 +89,4 @@ def test_analyze_text_third_order():
     assert result["characters"][3] == "aad"
     assert result["frequencies"][3] ==  0
     assert result["characters"][4] == "aae"
-    assert result["frequencies"][4] ==  0
-    
-    
+    assert result["frequencies"][4] == 0    

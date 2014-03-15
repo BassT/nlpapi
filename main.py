@@ -4,7 +4,7 @@ from urllib import urlopen
 
 from bottle import route, run, request, template, response
 
-from analysis import analyze_text
+from analysis import analyze_text, initialize_third_order_matrix, analyze_text_third_order_responsive
 
 
 @route('/')
@@ -63,7 +63,34 @@ def to():
 	yield callback
 	
 	text = urlopen(text_link).read()
-	char_analysis = analyze_text(text, 3, skip)
+	
+	"""
+	Unlike first- and second-order analysis, third-order analysis
+	raises serious computational complexity concerns and is likely to cause response
+	timeouts on executing servers. In order to avoid timeouts, the analysis is
+	split up into chunks of 500 words and an empty string yielded after each chunk, 
+	in order to keep the connection alive.
+	"""  
+	char_analysis = initialize_third_order_matrix();
+	
+	chars_left = True
+	lower_bound = 0
+	upper_bound = min(500, len(text))
+	while(chars_left):
+		if(upper_bound >= len(text)): # text is shorter than 500 chars
+			upper_bound = len(text)
+			char_analysis = analyze_text_third_order_responsive(text[lower_bound:upper_bound], char_analysis)
+			chars_left = False
+		else: # text is longer than 500 chars
+			if(lower_bound == 0): # first chunk, there are no last two characters of previous chunk
+				char_analysis = analyze_text_third_order_responsive(text[lower_bound:upper_bound], char_analysis)
+			else:
+				char_analysis = analyze_text_third_order_responsive(text[(lower_bound - 2):upper_bound], char_analysis)
+			yield ""
+			print "Processed " + str(upper_bound) + "/" + str(len(text)) + " chars"
+			lower_bound += 500
+			upper_bound += 500
+		
 	
 	yield "(" + dumps(char_analysis) + ")"
 	return

@@ -56,5 +56,39 @@ def analyze_text(text, order, skip):
                 else:
                     characters.append(trio)
                     frequencies.append(1)
+        
+
+    return { "characters": characters, "frequencies": frequencies }
+
+
+def initialize_third_order_matrix():
+    
+    characters = []
+    frequencies = []
+    
+    for i in range(0, len(alphabet)):
+        for j in range(0, len(alphabet)):
+            for k in range(0, len(alphabet)):
+                characters.append(alphabet[i] + alphabet[j] + alphabet[k])
+                frequencies.append(0)
+                
+    return { "characters": characters, "frequencies": frequencies }
+    
+    
+def analyze_text_third_order_responsive(chunk, char_analysis):
+    
+    characters = char_analysis["characters"]
+    frequencies = char_analysis["frequencies"]
+    chunk = chunk.lower()
+    trio = ""
+    
+    for i in range(0, len(chunk) - 2):
+        if (chunk[i] in alphabet) and (chunk[i+1] in alphabet) and (chunk[i+2] in alphabet):            
+            trio = chunk[i] + chunk[i + 1] + chunk[i + 2]
+            if trio in characters:
+                frequencies[characters.index(trio)] += 1
+            else:
+                characters.append(trio)
+                frequencies.append(1)
 
     return { "characters": characters, "frequencies": frequencies }
