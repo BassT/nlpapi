@@ -21,11 +21,14 @@ def fo():
 	
 	print "/fo with callback=" + callback + " text_link=" + text_link + " skip= " + str(skip)
 	
-	text = urlopen(text_link).read()	
+	response.set_header("Access-Control-Allow-Origin", "*")
+	yield callback
+	
+	text = urlopen(text_link).read()
 	char_analysis = analyze_text(text, 1, skip)
 	
-	response.set_header("Access-Control-Allow-Origin", "*")
-	return callback + "( " + dumps(char_analysis, indent=2) + " )"
+	yield "(" + dumps(char_analysis) + ")"
+	return
 
 @route('/so')
 def so():
@@ -37,11 +40,14 @@ def so():
 	
 	print "/so with callback=" + callback + " text_link=" + text_link + " skip= " + str(skip)
 	
+	response.set_header("Access-Control-Allow-Origin", "*")
+	yield callback
+	
 	text = urlopen(text_link).read()
 	char_analysis = analyze_text(text, 2, skip)
 	
-	response.set_header("Access-Control-Allow-Origin", "*")
-	return callback + "(" + dumps(char_analysis) + ")"
+	yield "(" + dumps(char_analysis) + ")"
+	return
 
 @route('/to')
 def to():
@@ -53,15 +59,18 @@ def to():
 	
 	print "/to with callback=" + callback + " text_link=" + text_link + " skip= " + str(skip)
 	
+	response.set_header("Access-Control-Allow-Origin", "*")
+	yield callback
+	
 	text = urlopen(text_link).read()
 	char_analysis = analyze_text(text, 3, skip)
 	
-	response.set_header("Access-Control-Allow-Origin", "*")
-	return callback + "(" + dumps(char_analysis) + ")"
+	yield "(" + dumps(char_analysis) + ")"
+	return
 
 @route('/pc')
 def pc():
 	""""""
 	pass
 
-run(host='0.0.0.0', port=int(os.environ.get("PORT", 5000)))
+run(host='localhost', port=int(os.environ.get("PORT", 5000)))
