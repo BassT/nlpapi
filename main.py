@@ -1,3 +1,4 @@
+import os
 from bottle import route, run, request, template, response
 from json import dumps
 from urllib import urlopen
@@ -60,4 +61,4 @@ def pc():
 	""""""
 	pass
 
-run(host='localhost', port=8080)
+run(host='localhost', int(os.environ.get("PORT", 5000))))
