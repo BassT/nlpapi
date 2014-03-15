@@ -86,7 +86,7 @@ def to():
 				char_analysis = analyze_text_third_order_responsive(text[lower_bound:upper_bound], char_analysis)
 			else:
 				char_analysis = analyze_text_third_order_responsive(text[(lower_bound - 2):upper_bound], char_analysis)
-			yield ""
+			yield " "
 			print "Processed " + str(upper_bound) + "/" + str(len(text)) + " chars"
 			lower_bound += 500
 			upper_bound += 500
