@@ -1,7 +1,8 @@
 import analysis
 
+
 def test_analyze_text_first_order():
-    """Tests analysis.analyze_text functionwith first order analysis."""
+    """Tests analysis.analyze_text function with first order analysis."""
     
     text = "Some test text"
     

@@ -1,8 +1,11 @@
-import os
-from bottle import route, run, request, template, response
 from json import dumps
+import os
 from urllib import urlopen
+
+from bottle import route, run, request, template, response
+
 from analysis import analyze_text
+
 
 @route('/')
 def index():
@@ -61,4 +64,4 @@ def pc():
 	""""""
 	pass
 
-run(host='localhost', int(os.environ.get("PORT", 5000))))
+run(host='localhost', int(os.environ.get("PORT", 5000)))
