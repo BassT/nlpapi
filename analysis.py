@@ -1,5 +1,5 @@
 from __builtin__ import len
-
+from json import dumps
 
 alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', "'", ' ', ',', '.', ';', ':', '?', '!', '(', ')', '-', "@", '"', '#']
 
@@ -92,3 +92,32 @@ def analyze_text_third_order_responsive(chunk, char_analysis):
                 frequencies.append(1)
 
     return { "characters": characters, "frequencies": frequencies }
+
+def compute_most_probable_digraph(so_char_analysis, start):
+    
+    characters = so_char_analysis["characters"]
+    frequencies = so_char_analysis["frequencies"]
+    
+    if len(characters) == 0:
+        return start
+    else:
+        current_char = start
+        next_char = ""
+        next_max_freq = 0
+        remove_list = []
+        
+        for i in range (0, len(characters)):
+            if characters[i].startswith(current_char):
+                remove_list.append(characters[i])
+                if frequencies[i] > next_max_freq:
+                    next_max_freq = frequencies[i]
+                    next_char = characters[i][1]
+        
+        for i in range(0, len(remove_list)):
+            index = characters.index(remove_list[i])
+            characters.remove(characters[index])
+            frequencies.remove(frequencies[index])
+        
+        return start + compute_most_probable_digraph({ "characters": characters, "frequencies": frequencies }, next_char)
+    
+    

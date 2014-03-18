@@ -89,4 +89,31 @@ def test_analyze_text_third_order():
     assert result["characters"][3] == "aad"
     assert result["frequencies"][3] ==  0
     assert result["characters"][4] == "aae"
-    assert result["frequencies"][4] == 0    
+    assert result["frequencies"][4] == 0
+    
+def test_initialize_third_order_matrix():
+    """Test the initialize_third_order_matrix method of the analysis module."""
+    
+    result = analysis.initialize_third_order_matrix()
+    assert len(result["characters"]) == 40**3
+    assert len(result["frequencies"]) == 40**3
+    
+def test_analyze_text_third_order_responsive():
+    """Test the analyze_text_third_order_responsive method of the analysis module."""
+    
+    text = "aaab"
+    char_analysis = analysis.initialize_third_order_matrix()
+    char_analysis = analysis.analyze_text_third_order_responsive(text[0:3], char_analysis)
+    char_analysis = analysis.analyze_text_third_order_responsive(text[1:], char_analysis)
+    assert char_analysis["characters"][0] == "aaa"
+    assert char_analysis["characters"][1] == "aab"
+    print char_analysis["frequencies"][0]
+    assert char_analysis["frequencies"][0] == 1
+    assert char_analysis["frequencies"][1] == 1
+    assert char_analysis["frequencies"][2] == 0
+    
+def test_compute_most_probable_digraph():
+    
+    char_analysis = { "characters": ["ab", "bc", "bd", "cd"], "frequencies": [1, 2, 1, 1] }
+    result = analysis.compute_most_probable_digraph(char_analysis, "a")
+    assert result == "abcd"

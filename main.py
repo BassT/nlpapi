@@ -4,7 +4,7 @@ from urllib import urlopen
 
 from bottle import route, run, request, template, response
 
-from analysis import analyze_text, initialize_third_order_matrix, analyze_text_third_order_responsive
+from analysis import analyze_text, initialize_third_order_matrix, analyze_text_third_order_responsive, compute_most_probable_digraph
 
 
 @route('/')
@@ -95,9 +95,23 @@ def to():
 	yield "(" + dumps(char_analysis) + ")"
 	return
 
-@route('/pc')
-def pc():
-	""""""
-	pass
+@route('/digraph')
+def digraph():
+	"""Computes the most probable digraph starting with a given character and input text"""
+	callback = request.query.callback
+	text_link = request.query.txt
+	start = request.query.start
+	
+	print "/pc with callback=" + callback + " text_link=" + text_link + " start=" + start
+	
+	response.set_header("Access-Control-Allow-Origin", "*")
+	yield callback
+	
+	text = urlopen(text_link).read()
+	char_analysis = analyze_text(text, 2, True)
+	
+	digraph = compute_most_probable_digraph(char_analysis, start)
+	yield "( 'digraph': " + digraph + ")"
+	return
 
 run(host='0.0.0.0', port=int(os.environ.get("PORT", 5000)))
