@@ -114,4 +114,13 @@ def digraph():
 	yield "( 'digraph': " + digraph + ")"
 	return
 
+@route("/author")
+def author():
+	"""Returns the likelihood of a given text to be written by an author
+	from our database. The database consists of the text listed at:
+	https://wiki.eecs.yorku.ca/course_archive/2013-14/W/6339/assignments:start
+	"""
+	#TODO
+	pass
+
 run(host='0.0.0.0', port=int(os.environ.get("PORT", 5000)))

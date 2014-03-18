@@ -21,6 +21,29 @@ def test_analyze_text_first_order():
     assert result["frequencies"][3] == 0
     assert result["frequencies"][4] == 3
 
+def test_analyze_text_loop_ready_first_order():
+    
+    text = ["Some", "test", "text"]
+
+    # Testing first order with *skip* set to True.
+    result = None
+    for i in range(0, len(text)):
+        result = analysis.analyze_text_loop_ready(text[i], 1, True, result)
+    assert len(result["characters"]) == 6
+    assert result["characters"][0] == "s"
+    assert len(result["frequencies"]) == 6
+    assert result["frequencies"][3] == 3
+    
+    # Testing first order with *skip* set to False.
+    result = None
+    for i in range(0, len(text)):
+        result = analysis.analyze_text_loop_ready(text[i], 1, False, result)
+    assert len(result["characters"]) == 40
+    assert result["characters"][0] == "a"
+    assert len(result["frequencies"]) == 40
+    assert result["frequencies"][3] == 0
+    assert result["frequencies"][4] == 3
+
 def test_analyze_text_second_order():
     """Tests analysis.analyze_text function with second order analysis."""
     
@@ -51,6 +74,30 @@ def test_analyze_text_second_order():
     assert result["frequencies"][1] ==  2
     assert result["characters"][2] == "ac"
     assert result["frequencies"][2] ==  1
+    
+def test_analyze_text_loop_ready_second_order():
+    
+    text = ["ab","ab","ac"]
+
+    # Testing first order with *skip* set to True.
+    result = None
+    for i in range(0, len(text)):
+        result = analysis.analyze_text_loop_ready(text[i], 2, True, result)
+    assert len(result["characters"]) == 2
+    assert result["characters"][0] == "ab"
+    assert len(result["frequencies"]) == 2
+    assert result["frequencies"][0] == 2  
+    
+    # Testing first order with *skip* set to False.
+    result = None
+    for i in range(0, len(text)):
+        result = analysis.analyze_text_loop_ready(text[i], 2, False, result)
+    assert len(result["characters"]) == 40**2
+    assert result["characters"][1] == "ab"
+    assert len(result["frequencies"]) == 40**2
+    assert result["frequencies"][0] == 0
+    assert result["frequencies"][1] == 2
+    assert result["frequencies"][2] == 1
     
 def test_analyze_text_third_order():
     """Tests analysis.analyze_text function with third order analysis."""

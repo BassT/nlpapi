@@ -1,32 +1,38 @@
 from __builtin__ import len
-from json import dumps
 
 alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', "'", ' ', ',', '.', ';', ':', '?', '!', '(', ')', '-', "@", '"', '#']
 
 def analyze_text(text, order, skip):
-    """Returns two-dimensional array with characters and their frequencies """
+    """Returns two-dimensional array with characters 
+    and their frequencies for a single text"""
+    return analyze_text_loop_ready(text, order, skip, None)
+
+def analyze_text_loop_ready(text, order, skip, char_analysis):
     
     text = text.lower()
     
-    characters = []
-    frequencies = []
-    
-    if(not skip):
-        if(order == 1):
-            characters = alphabet
-            for i in range(0, len(alphabet)):
-                frequencies.append(0)
-        elif(order == 2):
-            for i in range(0, len(alphabet)):
-                for j in range(0, len(alphabet)):
-                    characters.append(alphabet[i] + alphabet[j])
+    if(char_analysis is None):
+        characters = []
+        frequencies = []
+        if(not skip):
+            if(order == 1):
+                characters = alphabet
+                for i in range(0, len(alphabet)):
                     frequencies.append(0)
-        elif(order == 3):
-            for i in range(0, len(alphabet)):
-                for j in range(0, len(alphabet)):
-                    for k in range(0, len(alphabet)):
-                        characters.append(alphabet[i] + alphabet[j] + alphabet[k])
+            elif(order == 2):
+                for i in range(0, len(alphabet)):
+                    for j in range(0, len(alphabet)):
+                        characters.append(alphabet[i] + alphabet[j])
                         frequencies.append(0)
+            elif(order == 3):
+                for i in range(0, len(alphabet)):
+                    for j in range(0, len(alphabet)):
+                        for k in range(0, len(alphabet)):
+                            characters.append(alphabet[i] + alphabet[j] + alphabet[k])
+                            frequencies.append(0)
+    else:
+        characters = char_analysis["characters"]
+        frequencies = char_analysis["frequencies"]
     
     if(order == 1):
         for i in range(0, len(text)):
@@ -62,6 +68,7 @@ def analyze_text(text, order, skip):
 
 
 def initialize_third_order_matrix():
+    """Initializes a third-order matrix [2x64000]."""
     
     characters = []
     frequencies = []
@@ -76,6 +83,12 @@ def initialize_third_order_matrix():
     
     
 def analyze_text_third_order_responsive(chunk, char_analysis):
+    """Returns a two-dimensional array with characters and their frequencies.
+    This method is meant to be hosted on a server with a request timeout in place,
+    since third-order computation can take a considerable amount of time and in order
+    to keep the request alive, the input text is split up into smaller chunks
+    and after each chunk the function sends an empty string to notify that it's still
+    working."""
     
     characters = char_analysis["characters"]
     frequencies = char_analysis["frequencies"]
@@ -94,6 +107,10 @@ def analyze_text_third_order_responsive(chunk, char_analysis):
     return { "characters": characters, "frequencies": frequencies }
 
 def compute_most_probable_digraph(so_char_analysis, start):
+    """Recursively computes the most probable digraph given a second-order
+    correlation matrix as input and a character to start with.
+    When the successor of the start character is found all possible
+    successors of this character are removed in order to avoid loops."""
     
     characters = so_char_analysis["characters"]
     frequencies = so_char_analysis["frequencies"]
