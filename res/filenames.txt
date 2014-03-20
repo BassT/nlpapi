@@ -1,0 +1,27 @@
+a_connecticut_yankee_in_king_arthur_s_court1.txt,Mark Twain
+adventures_of_huckleberry_finn1.txt,Mark Twain
+agnes_grey1.txt,Anne Bronte
+alices_adventures_in_wonderland.txt,Lewis Carroll
+christmas_carol.txt,Charles Dickens
+fanny_hill.txt,John Cleland
+jane_eyre1.txt,Charlotte Bronte
+king_solomons_mines.txt,H. Ryder Haggard
+legend_of_sleepy_hollow.txt,Washington Irving
+metamorphosis.txt,Franz Kafka
+tale_of_2_cities.txt,Charles Dickens
+tales_of_terror_and_mystery1.txt,Sir Arthur Conan Doyle
+tarzan_of_the_apes.txt,Edgar Rice Burroughs
+the_adventures_of_sherlock_holmes1.txt,Sir Arthur Conan Doyle
+the_adventures_of_tom_sawyer1.txt,Mark Twain
+the_hound_of_the_baskervilles1.txt,Sir Arthur Conan Doyle
+the_jungle_book.txt,Rudyard Kipling
+the_land_that_time_forgot1.txt,Edgar Rice Burroughs
+the_lost_world1.txt,Sir Arthur Conan Doyle
+the_people_that_time_forgot1.txt,Edgar Rice Burroughs
+the_prince.txt,Nicolo Machiavelli
+the_time_machine.txt,H. G. Wells
+the_trial.txt,Franz Kafka
+through_the_looking_glass.txt,Lewis Carroll
+warlord_of_mars.txt,Edgar Rice Burroughs
+war_of_the_worlds.txt,H. G. Wells
+wuthering_heights.txt,Emily Bronte
