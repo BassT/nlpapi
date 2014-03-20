@@ -17,7 +17,8 @@ def set_up_author_attr_data():
     
     print "The catalog: " + dumps(catalog)
     
-    """Compute and save the second-order matrix for every distinct author"""
+    """Compute and save the second-order matrix 
+    (absolute frequencies) for every distinct author"""
     for author in catalog["distinct_authors"]:
         print "START - Computing second-order matrix for " + author
         char_analysis = None

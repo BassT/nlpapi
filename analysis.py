@@ -137,4 +137,37 @@ def compute_most_probable_digraph(so_char_analysis, start):
         
         return start + compute_most_probable_digraph({ "characters": characters, "frequencies": frequencies }, next_char)
     
+def author_attribution(text):
+    """First, computes the second-order matrix (relative frequencies) of the input text.
+    Second, computes the sum of the quadratic deviations of the input text against each author in the database."""
+    
+def abs_to_rel_freq(mat_abs, order):
+    """Given an object with attributes 'frequencies' (**absolute** frequencies) and 'characters'
+    this function returns the **relative** frequencies."""
+    
+    given_chars = mat_abs["characters"]
+    abs_freqs = mat_abs["frequencies"]
+    rel_freqs = []
+    
+    if (order == 1):
+        # TODO
+        pass
+    elif (order == 2):
+        
+        for search_char in alphabet:
+            total_freq = 0
+            for given_char in given_chars:
+                if(given_char.startswith(search_char)):
+                    total_freq += abs_freqs[given_chars.index(given_char)]
+            for given_char in given_chars:
+                if(given_char.startswith(search_char)):
+                    if total_freq > 0:
+                        rel_freqs.append((0.0 + abs_freqs[given_chars.index(given_char)]) / total_freq)
+                    else:
+                        rel_freqs.append(0)
+    
+    elif (order == 3):
+        # TODO
+        pass
 
+    return rel_freqs
