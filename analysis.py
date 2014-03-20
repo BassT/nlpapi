@@ -137,4 +137,4 @@ def compute_most_probable_digraph(so_char_analysis, start):
         
         return start + compute_most_probable_digraph({ "characters": characters, "frequencies": frequencies }, next_char)
     
-    
+
