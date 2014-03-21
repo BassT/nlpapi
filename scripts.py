@@ -52,6 +52,7 @@ def set_up_genre_data():
                 genres.append( { "name": text_genre, "books": [filename]} )
         line = file_list.readline().rstrip("\n")
         
+    """Filter out genres which only have 1 book"""
     significant_genres_list = []
     for i in range(0, len(genres)):
         if len(genres[i]["books"]) > 1:
@@ -60,6 +61,12 @@ def set_up_genre_data():
     for index in significant_genres_list:
         temp_list.append(genres[index])
     genres = temp_list
+    
+    """Compute top 50 3-gram for each genre"""
+    for i in range(0, len(genres)):
+        for j in range(0, len(genres[i]["books"])):
+            genres[i]["3-gram"] = analysis.compute_n_gram_words(50, 3, genres[i]["books"][j], genres[i]["3-gram"])
+         
     
     for genre in genres:
         with open("res/genres/" + genre["name"].replace(" ", "_"), "w") as outfile:

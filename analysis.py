@@ -3,6 +3,7 @@ import json as js
 from sys import maxint
 
 alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', "'", ' ', ',', '.', ';', ':', '?', '!', '(', ')', '-', "@", '"', '#']
+special_characters = ["'", ' ', ',', '.', ';', ':', '?', '!', '(', ')', '-', "@", '"', '#']
 
 def analyze_text(text, order, skip):
     """Returns two-dimensional array with characters 
@@ -202,3 +203,61 @@ def abs_to_rel_freq(mat_abs, order):
         pass
 
     return rel_freqs
+
+def compute_n_gram_words(n, text, n_gram=None):
+    """Returns *n*-grams of a given *text* source
+    
+    :param n: the size of the contiguous sequence of words
+    :param text: the text source to be analyzed
+    :param n_gram: takes an existing n_gram as input, which will be extended
+    :returns: an object n_gram: { 'sequences': [*top **m** **n**-grams*], 'frequencies': [*the frequencies of n-grams*] }
+    """
+    
+    if n_gram == None:
+        n_gram = { "sequences": [], "frequencies": [] }
+    
+    if n == 1:
+        for word in text.split(" "):
+            for special_char in special_characters:
+                word = word.replace(special_char, "")
+            word = word.lower()
+            if word not in n_gram["sequences"]:
+                n_gram["sequences"].append(word)
+                n_gram["frequencies"].append(1)
+            else:
+                n_gram["frequencies"][n_gram["sequences"].index(word)] += 1
+    else:
+        #TODO
+        pass
+    
+    return n_gram
+
+def get_top_m_n_grams(m, n_gram):
+    """Reduces a list of n_grams with word sequences and their frequencies
+    to the top *m* ones.
+    
+    :param m: amount of sequences and corresponding frequencies to return
+    :param n_gram: an object with attribues 'sequencies' and (index-wise) corresponding 'frequencies'
+    :returns: The top *m* sequences (and their frequencies) of the input n-gram in a descending order.
+    """
+    
+    top_m_freqs = [0]
+    top_m_index = [0]
+    for seq in n_gram["sequences"]:
+        freq = n_gram["frequencies"][n_gram["sequences"].index(seq)]
+        for i in range(0, len(top_m_freqs)):
+            if freq > top_m_freqs[i]:
+                top_m_freqs.insert(i, freq)
+                top_m_index.insert(i, n_gram["sequences"].index(seq))
+                if len(top_m_freqs) > m:
+                    top_m_freqs.pop()
+                    top_m_index.pop()
+                break
+            
+    result = { "sequences": [], "frequencies": [] }
+    
+    for index in top_m_index:
+        result["sequences"].append(n_gram["sequences"][index])
+        result["frequencies"].append(n_gram["frequencies"][index])
+        
+    return result
