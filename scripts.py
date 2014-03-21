@@ -32,4 +32,37 @@ def set_up_author_attr_data():
             dump(char_analysis, outfile)
         print "END - Computing second-order matrix for " + author
         
-set_up_author_attr_data()
+def set_up_genre_data():
+    
+    """Load all books"""
+    genres = []
+    file_list = open("res/filenames.txt", "r")
+    line = file_list.readline().rstrip("\n")
+    while(line != ""):
+        splits = str(line).split(",")
+        filename = splits[0]
+        for i in range(2, len(splits)):
+            text_genre = splits[i].strip().lower()
+            found_genre = False
+            for genre in genres:
+                if genre["name"] == text_genre:
+                    genre["books"].append(filename)
+                    found_genre = True
+            if not found_genre:
+                genres.append( { "name": text_genre, "books": [filename]} )
+        line = file_list.readline().rstrip("\n")
+        
+    significant_genres_list = []
+    for i in range(0, len(genres)):
+        if len(genres[i]["books"]) > 1:
+            significant_genres_list.append(i)
+    temp_list = []
+    for index in significant_genres_list:
+        temp_list.append(genres[index])
+    genres = temp_list
+    
+    for genre in genres:
+        with open("res/genres/" + genre["name"].replace(" ", "_"), "w") as outfile:
+            dump(genre["books"], outfile)
+    
+    print "The catalog: " + dumps(genres, sort_keys=True, indent=4, separators=(',', ': '))
