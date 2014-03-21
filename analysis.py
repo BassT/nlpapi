@@ -1,4 +1,6 @@
 from __builtin__ import len
+import json as js
+from sys import maxint
 
 alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', "'", ' ', ',', '.', ';', ':', '?', '!', '(', ')', '-', "@", '"', '#']
 
@@ -8,6 +10,12 @@ def analyze_text(text, order, skip):
     return analyze_text_loop_ready(text, order, skip, None)
 
 def analyze_text_loop_ready(text, order, skip, char_analysis):
+    """Returns two-dimensional array with characters 
+    and their frequencies for a single text. This function
+    can be used to analyze a large text in chunks or mutiple
+    texts sequentially by updating char_analysis in every
+    iteration."""
+    
     
     text = text.lower()
     
@@ -140,6 +148,29 @@ def compute_most_probable_digraph(so_char_analysis, start):
 def author_attribution(text):
     """First, computes the second-order matrix (relative frequencies) of the input text.
     Second, computes the sum of the quadratic deviations of the input text against each author in the database."""
+    
+    text_char_analysis = analyze_text(text, 2, False)
+    freqs_text = abs_to_rel_freq(text_char_analysis, 2)
+    
+    authors = open("res/authors/index").readlines()
+    best_match_sum = maxint
+    best_match_author = ""
+    for author in authors:
+        author = author.replace("\n", "")
+        current_sum = 0
+        author_char_analysis = js.load(open("res/authors/" + author))
+        freqs_author = author_char_analysis["frequencies"] 
+        for i in range(0, len(freqs_author)):
+            current_sum += (freqs_text[i] - freqs_author[i]) ** 2
+        
+        print "Text matches " + author + " by " + str(current_sum)
+        
+        if current_sum < best_match_sum:
+            best_match_sum = current_sum
+            best_match_author = author
+            
+    return best_match_author
+    
     
 def abs_to_rel_freq(mat_abs, order):
     """Given an object with attributes 'frequencies' (**absolute** frequencies) and 'characters'

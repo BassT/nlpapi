@@ -27,6 +27,9 @@ def set_up_author_attr_data():
                 print "Found a book written by " + author + ": " + book["filename"]
                 text = open("res/" + book["filename"]).read().replace('\n', '')
                 char_analysis = analysis.analyze_text_loop_ready(text, 2, False, char_analysis)
-        with open("res/" + author.replace(" ", "_"), "w") as outfile:
+        char_analysis["frequencies"] = analysis.abs_to_rel_freq(char_analysis, 2)
+        with open("res/authors/" + author.replace(" ", "_"), "w") as outfile:
             dump(char_analysis, outfile)
         print "END - Computing second-order matrix for " + author
+        
+set_up_author_attr_data()

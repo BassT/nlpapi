@@ -164,3 +164,12 @@ def test_compute_most_probable_digraph():
     char_analysis = { "characters": ["ab", "bc", "bd", "cd"], "frequencies": [1, 2, 1, 1] }
     result = analysis.compute_most_probable_digraph(char_analysis, "a")
     assert result == "abcd"
+    
+def test_author_attribution():
+    
+    text = open("res/legend_of_sleepy_hollow.txt").read().replace('\n', '')
+    assert analysis.author_attribution(text) == "Washington_Irving"
+    text = open("res/tarzan_of_the_apes.txt").read().replace('\n', '')
+    assert analysis.author_attribution(text) == "Edgar_Rice_Burroughs"
+    text = open("res/adventures_of_huckleberry_finn1.txt").read().replace('\n', '')
+    assert analysis.author_attribution(text) == "Mark_Twain"
