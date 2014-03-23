@@ -1,4 +1,4 @@
-from __builtin__ import len
+from __builtin__ import len, sum
 import json as js
 from sys import maxint
 
@@ -174,8 +174,9 @@ def author_attribution(text):
     
     
 def abs_to_rel_freq(mat_abs, order):
-    """Given an object with attributes 'frequencies' (**absolute** frequencies) and 'characters'
-    this function returns the **relative** frequencies."""
+    """Given an nth-order matrix which contains a text character analysis as 
+    an object with attributes 'frequencies' (**absolute** frequencies) and 'characters'
+    this function returns the corresponding **relative** frequencies."""
     
     given_chars = mat_abs["characters"]
     abs_freqs = mat_abs["frequencies"]
@@ -217,7 +218,9 @@ def compute_n_gram_words(n, text, n_gram=None):
         n_gram = { "sequences": [], "frequencies": [] }
     
     if n == 1:
+        total_words = 0
         for word in text.split(" "):
+            total_words += 1
             for special_char in special_characters:
                 word = word.replace(special_char, "")
             word = word.lower()
@@ -226,6 +229,8 @@ def compute_n_gram_words(n, text, n_gram=None):
                 n_gram["frequencies"].append(1)
             else:
                 n_gram["frequencies"][n_gram["sequences"].index(word)] += 1
+        for i in range(0,len(n_gram["frequencies"])):
+            n_gram["frequencies"][i] = n_gram["frequencies"][i] / (0.0 + total_words)
     else:
         #TODO
         pass
@@ -261,3 +266,84 @@ def get_top_m_n_grams(m, n_gram):
         result["frequencies"].append(n_gram["frequencies"][index])
         
     return result
+
+def filter_sequences(genres):
+    """Given a set of objects (genres) which have n-gram *sequences* and
+    their *frequencies* as attributes, this function returns this set of
+    objects, where for every object (genre) the sequences, which occur
+    not uniquely in an object (genre), are removed.
+    
+    :param genres: a set of objects (genres) which have n-gram *sequences* and
+    their *frequencies* as attributes
+    :returns: this set of objects, where for every object (genre) the sequences, which occur
+    not uniquely in an object (genre), are removed
+    """
+    
+    seqs_master_list = []
+    for genre in genres:
+        for seq in genre["1-gram"]["sequences"]:
+            found_seq = False
+            for seq_master in seqs_master_list:
+                if seq_master["seq"] == seq:
+                    seq_master["freq"] += 1
+                    found_seq = True
+            if not found_seq:
+                seqs_master_list.append({ "seq": seq, "freq": 1 })
+    
+    unique_seqs = []
+    for seq in seqs_master_list:
+        if seq["freq"] == 1:
+            unique_seqs.append(seq["seq"])
+    
+    
+    for genre in genres:
+        temp_list = { "sequences": [], "frequencies": [] }
+        for i in range(0,len(genre["1-gram"]["sequences"])):
+            seq = genre["1-gram"]["sequences"][i]
+            freq = genre["1-gram"]["frequencies"][i]
+            if seq in unique_seqs:
+                temp_list["sequences"].append(seq)
+                temp_list["frequencies"].append(freq)
+        genre["1-gram-unique"] = temp_list
+        
+    return genres
+
+def genre_attribution(text):
+    """This function computes 1-grams of a given input text and compares it
+    to 1-grams of known genres from the database. It returns the genre
+    with the highest match
+    
+    :param text: the input text
+    :returns: The genre from the database which has the highest similarity in word
+    use with the input text.    
+    """
+    
+    n_gram = compute_n_gram_words(1, text)
+    seqs = n_gram["sequences"]
+    freqs = n_gram["frequencies"]
+    
+    genre_index = open("res/genres/index").readlines()
+    print "Genre index: " + ','.join(genre_index)
+    
+    diff_best_match = maxint
+    best_match = ""
+    for current_genre in genre_index:
+        diff = 0
+        n_gram_genre = js.load(open("res/genres/" + current_genre.replace("\n","")))
+        seqs_genre = n_gram_genre["sequences"]
+        freqs_genre = n_gram_genre["frequencies"]
+        for i in range(0, len(seqs_genre)):
+            if seqs_genre[i] in seqs:
+                index = seqs.index(seqs_genre[i])
+                diff += (freqs_genre[i] - freqs[index]) ** 2 
+            else:
+                diff += (freqs_genre[i]) ** 2
+        print "Diff for " + current_genre + ": " + str(diff)
+        if diff < diff_best_match:
+            diff_best_match = diff
+            best_match = current_genre
+            print "Best match set to: " + str(best_match)
+    
+    return best_match
+    
+    

@@ -62,14 +62,27 @@ def set_up_genre_data():
         temp_list.append(genres[index])
     genres = temp_list
     
-    """Compute top 50 3-gram for each genre"""
+    """Compute 1-gram for each genre"""
     for i in range(0, len(genres)):
+        print "\nComputing top 50 1-gram for: " + genres[i]["name"]
+        n_gram = None
         for j in range(0, len(genres[i]["books"])):
-            genres[i]["3-gram"] = analysis.compute_n_gram_words(50, 3, genres[i]["books"][j], genres[i]["3-gram"])
-         
+            print "Analyzing text from " + genres[i]["books"][j] 
+            text = open("res/" + genres[i]["books"][j]).read().replace("\r\n", " ").replace("\r"," ").replace("\n"," ")
+            n_gram = analysis.compute_n_gram_words(1, text, n_gram)
+        # genres[i]["1-gram"] = n_gram
+        genres[i]["1-gram"] = analysis.get_top_m_n_grams(500, n_gram)
+        print "Computed " + dumps(genres[i]["1-gram"], sort_keys=True, indent=4, separators=(',', ': ')) 
     
+    """Filter sequences, which occur in all genres"""
+    
+    genres = analysis.filter_sequences(genres)    
+    
+    """Store n-grams for each genre"""
     for genre in genres:
         with open("res/genres/" + genre["name"].replace(" ", "_"), "w") as outfile:
-            dump(genre["books"], outfile)
+            dump(genre["1-gram"], outfile)
+        with open("res/genres/" + genre["name"].replace(" ", "_") + "-unique", "w") as outfile:
+            dump(genre["1-gram-unique"], outfile)
     
     print "The catalog: " + dumps(genres, sort_keys=True, indent=4, separators=(',', ': '))

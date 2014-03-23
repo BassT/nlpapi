@@ -102,7 +102,7 @@ def digraph():
 	text_link = request.query.txt
 	start = request.query.start
 	
-	print "/pc with callback=" + callback + " text_link=" + text_link + " start=" + start
+	print "/digraph with callback=" + callback + " text_link=" + text_link + " start=" + start
 	
 	response.set_header("Access-Control-Allow-Origin", "*")
 	yield callback
