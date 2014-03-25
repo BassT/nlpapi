@@ -1,0 +1,3053 @@
+[
+    {
+        "diffs": [
+            {
+                "diff": 0.0,
+                "title": "a_connecticut_yankee_in_king_arthur_s_court1"
+            },
+            {
+                "diff": 0.0010179524909217467,
+                "title": "adventures_of_huckleberry_finn1"
+            },
+            {
+                "diff": 0.0012566698796863444,
+                "title": "agnes_grey1"
+            },
+            {
+                "diff": 0.0014973857734101581,
+                "title": "alices_adventures_in_wonderland"
+            },
+            {
+                "diff": 0.0027425021001095734,
+                "title": "christmas_carol"
+            },
+            {
+                "diff": 0.003210067181517488,
+                "title": "fanny_hill"
+            },
+            {
+                "diff": 0.0010628433577254742,
+                "title": "jane_eyre1"
+            },
+            {
+                "diff": 0.002247043382488713,
+                "title": "king_solomons_mines"
+            },
+            {
+                "diff": 0.003693367929242938,
+                "title": "legend_of_sleepy_hollow"
+            },
+            {
+                "diff": 0.0020704262823580065,
+                "title": "metamorphosis"
+            },
+            {
+                "diff": 0.0024318367122473346,
+                "title": "tale_of_2_cities"
+            },
+            {
+                "diff": 0.0006894110664717444,
+                "title": "tales_of_terror_and_mystery1"
+            },
+            {
+                "diff": 0.001947018089634736,
+                "title": "tarzan_of_the_apes"
+            },
+            {
+                "diff": 0.002621430547053646,
+                "title": "the_adventures_of_sherlock_holmes1"
+            },
+            {
+                "diff": 0.0021267992918317133,
+                "title": "the_adventures_of_tom_sawyer1"
+            },
+            {
+                "diff": 0.0009312515761540334,
+                "title": "the_hound_of_the_baskervilles1"
+            },
+            {
+                "diff": 0.0009659124290247978,
+                "title": "the_jungle_book"
+            },
+            {
+                "diff": 0.0010342600506036902,
+                "title": "the_land_that_time_forgot1"
+            },
+            {
+                "diff": 0.0007078338100259549,
+                "title": "the_lost_world1"
+            },
+            {
+                "diff": 0.0009232253960958861,
+                "title": "the_people_that_time_forgot1"
+            },
+            {
+                "diff": 0.0020583744442102185,
+                "title": "the_prince"
+            },
+            {
+                "diff": 0.0033407757600074075,
+                "title": "the_time_machine"
+            },
+            {
+                "diff": 0.0013424957888865134,
+                "title": "the_trial"
+            },
+            {
+                "diff": 0.0016738158471470144,
+                "title": "through_the_looking_glass"
+            },
+            {
+                "diff": 0.0025330185646175772,
+                "title": "warlord_of_mars"
+            },
+            {
+                "diff": 0.0011493811735297642,
+                "title": "war_of_the_worlds"
+            },
+            {
+                "diff": 0.001030471550928625,
+                "title": "wuthering_heights"
+            }
+        ],
+        "title": "a_connecticut_yankee_in_king_arthur_s_court1"
+    },
+    {
+        "diffs": [
+            {
+                "diff": 0.0010179524909220345,
+                "title": "a_connecticut_yankee_in_king_arthur_s_court1"
+            },
+            {
+                "diff": 0.0,
+                "title": "adventures_of_huckleberry_finn1"
+            },
+            {
+                "diff": 0.0013087618268985183,
+                "title": "agnes_grey1"
+            },
+            {
+                "diff": 0.002126910610798367,
+                "title": "alices_adventures_in_wonderland"
+            },
+            {
+                "diff": 0.0026668451169302217,
+                "title": "christmas_carol"
+            },
+            {
+                "diff": 0.003416933955940662,
+                "title": "fanny_hill"
+            },
+            {
+                "diff": 0.001312002702388215,
+                "title": "jane_eyre1"
+            },
+            {
+                "diff": 0.002515555122094914,
+                "title": "king_solomons_mines"
+            },
+            {
+                "diff": 0.004671583897399564,
+                "title": "legend_of_sleepy_hollow"
+            },
+            {
+                "diff": 0.0028747274667840616,
+                "title": "metamorphosis"
+            },
+            {
+                "diff": 0.002650036301376562,
+                "title": "tale_of_2_cities"
+            },
+            {
+                "diff": 0.001891911375138428,
+                "title": "tales_of_terror_and_mystery1"
+            },
+            {
+                "diff": 0.0031631942740083453,
+                "title": "tarzan_of_the_apes"
+            },
+            {
+                "diff": 0.0026542322978871232,
+                "title": "the_adventures_of_sherlock_holmes1"
+            },
+            {
+                "diff": 0.0016597757241717554,
+                "title": "the_adventures_of_tom_sawyer1"
+            },
+            {
+                "diff": 0.001937555738693119,
+                "title": "the_hound_of_the_baskervilles1"
+            },
+            {
+                "diff": 0.0017979913044518243,
+                "title": "the_jungle_book"
+            },
+            {
+                "diff": 0.0017623560566688225,
+                "title": "the_land_that_time_forgot1"
+            },
+            {
+                "diff": 0.002643705244815934,
+                "title": "the_lost_world1"
+            },
+            {
+                "diff": 0.001986129436211604,
+                "title": "the_people_that_time_forgot1"
+            },
+            {
+                "diff": 0.0031057441993784744,
+                "title": "the_prince"
+            },
+            {
+                "diff": 0.003421755130216541,
+                "title": "the_time_machine"
+            },
+            {
+                "diff": 0.002681340085842293,
+                "title": "the_trial"
+            },
+            {
+                "diff": 0.0031068500880936834,
+                "title": "through_the_looking_glass"
+            },
+            {
+                "diff": 0.0037369425692049397,
+                "title": "warlord_of_mars"
+            },
+            {
+                "diff": 0.002579576762441866,
+                "title": "war_of_the_worlds"
+            },
+            {
+                "diff": 0.0011660448822849157,
+                "title": "wuthering_heights"
+            }
+        ],
+        "title": "adventures_of_huckleberry_finn1"
+    },
+    {
+        "diffs": [
+            {
+                "diff": 0.001256669879686348,
+                "title": "a_connecticut_yankee_in_king_arthur_s_court1"
+            },
+            {
+                "diff": 0.0013087618268985142,
+                "title": "adventures_of_huckleberry_finn1"
+            },
+            {
+                "diff": 0.0,
+                "title": "agnes_grey1"
+            },
+            {
+                "diff": 0.0019494192121619722,
+                "title": "alices_adventures_in_wonderland"
+            },
+            {
+                "diff": 0.002203496369540646,
+                "title": "christmas_carol"
+            },
+            {
+                "diff": 0.0017172912611990068,
+                "title": "fanny_hill"
+            },
+            {
+                "diff": 0.00029482878047215665,
+                "title": "jane_eyre1"
+            },
+            {
+                "diff": 0.0018537412971304328,
+                "title": "king_solomons_mines"
+            },
+            {
+                "diff": 0.004353275789316894,
+                "title": "legend_of_sleepy_hollow"
+            },
+            {
+                "diff": 0.002314753877338974,
+                "title": "metamorphosis"
+            },
+            {
+                "diff": 0.001857348174357542,
+                "title": "tale_of_2_cities"
+            },
+            {
+                "diff": 0.0012178800897944201,
+                "title": "tales_of_terror_and_mystery1"
+            },
+            {
+                "diff": 0.0027110195399600323,
+                "title": "tarzan_of_the_apes"
+            },
+            {
+                "diff": 0.0015160941128714456,
+                "title": "the_adventures_of_sherlock_holmes1"
+            },
+            {
+                "diff": 0.0017638901100602905,
+                "title": "the_adventures_of_tom_sawyer1"
+            },
+            {
+                "diff": 0.001227926066035474,
+                "title": "the_hound_of_the_baskervilles1"
+            },
+            {
+                "diff": 0.0022059762588282,
+                "title": "the_jungle_book"
+            },
+            {
+                "diff": 0.0012870204425262498,
+                "title": "the_land_that_time_forgot1"
+            },
+            {
+                "diff": 0.002260386635962642,
+                "title": "the_lost_world1"
+            },
+            {
+                "diff": 0.0012246348354115729,
+                "title": "the_people_that_time_forgot1"
+            },
+            {
+                "diff": 0.002193559811294432,
+                "title": "the_prince"
+            },
+            {
+                "diff": 0.0026060006691824237,
+                "title": "the_time_machine"
+            },
+            {
+                "diff": 0.002341274150060773,
+                "title": "the_trial"
+            },
+            {
+                "diff": 0.00331100019795924,
+                "title": "through_the_looking_glass"
+            },
+            {
+                "diff": 0.0024899666343447873,
+                "title": "warlord_of_mars"
+            },
+            {
+                "diff": 0.0027188346504817278,
+                "title": "war_of_the_worlds"
+            },
+            {
+                "diff": 0.0004070884090202134,
+                "title": "wuthering_heights"
+            }
+        ],
+        "title": "agnes_grey1"
+    },
+    {
+        "diffs": [
+            {
+                "diff": 0.0014973857734101766,
+                "title": "a_connecticut_yankee_in_king_arthur_s_court1"
+            },
+            {
+                "diff": 0.0021269106107984145,
+                "title": "adventures_of_huckleberry_finn1"
+            },
+            {
+                "diff": 0.0019494192121619716,
+                "title": "agnes_grey1"
+            },
+            {
+                "diff": 0.0,
+                "title": "alices_adventures_in_wonderland"
+            },
+            {
+                "diff": 0.0025424450194938618,
+                "title": "christmas_carol"
+            },
+            {
+                "diff": 0.0035755295943633433,
+                "title": "fanny_hill"
+            },
+            {
+                "diff": 0.0017687118445387036,
+                "title": "jane_eyre1"
+            },
+            {
+                "diff": 0.002354568468217828,
+                "title": "king_solomons_mines"
+            },
+            {
+                "diff": 0.004080313138535195,
+                "title": "legend_of_sleepy_hollow"
+            },
+            {
+                "diff": 0.0022639807189402984,
+                "title": "metamorphosis"
+            },
+            {
+                "diff": 0.0022488964242774866,
+                "title": "tale_of_2_cities"
+            },
+            {
+                "diff": 0.0015101107240541342,
+                "title": "tales_of_terror_and_mystery1"
+            },
+            {
+                "diff": 0.0020015117714950177,
+                "title": "tarzan_of_the_apes"
+            },
+            {
+                "diff": 0.0025308469768236595,
+                "title": "the_adventures_of_sherlock_holmes1"
+            },
+            {
+                "diff": 0.002107300406335918,
+                "title": "the_adventures_of_tom_sawyer1"
+            },
+            {
+                "diff": 0.0015753688826144318,
+                "title": "the_hound_of_the_baskervilles1"
+            },
+            {
+                "diff": 0.0015709643663308983,
+                "title": "the_jungle_book"
+            },
+            {
+                "diff": 0.0017112023916688237,
+                "title": "the_land_that_time_forgot1"
+            },
+            {
+                "diff": 0.002006798879829517,
+                "title": "the_lost_world1"
+            },
+            {
+                "diff": 0.0018470874789061017,
+                "title": "the_people_that_time_forgot1"
+            },
+            {
+                "diff": 0.002622961255317479,
+                "title": "the_prince"
+            },
+            {
+                "diff": 0.0034495561586646933,
+                "title": "the_time_machine"
+            },
+            {
+                "diff": 0.001813954144072721,
+                "title": "the_trial"
+            },
+            {
+                "diff": 0.0013193511391244993,
+                "title": "through_the_looking_glass"
+            },
+            {
+                "diff": 0.0028546478775637557,
+                "title": "warlord_of_mars"
+            },
+            {
+                "diff": 0.0019917100684303693,
+                "title": "war_of_the_worlds"
+            },
+            {
+                "diff": 0.0017551989877210331,
+                "title": "wuthering_heights"
+            }
+        ],
+        "title": "alices_adventures_in_wonderland"
+    },
+    {
+        "diffs": [
+            {
+                "diff": 0.002742502100109639,
+                "title": "a_connecticut_yankee_in_king_arthur_s_court1"
+            },
+            {
+                "diff": 0.002666845116930299,
+                "title": "adventures_of_huckleberry_finn1"
+            },
+            {
+                "diff": 0.002203496369540728,
+                "title": "agnes_grey1"
+            },
+            {
+                "diff": 0.002542445019493987,
+                "title": "alices_adventures_in_wonderland"
+            },
+            {
+                "diff": 0.0,
+                "title": "christmas_carol"
+            },
+            {
+                "diff": 0.0013022672600652048,
+                "title": "fanny_hill"
+            },
+            {
+                "diff": 0.002279160958992751,
+                "title": "jane_eyre1"
+            },
+            {
+                "diff": 0.0007437781344377164,
+                "title": "king_solomons_mines"
+            },
+            {
+                "diff": 0.0016325349656870368,
+                "title": "legend_of_sleepy_hollow"
+            },
+            {
+                "diff": 0.0022977247902687243,
+                "title": "metamorphosis"
+            },
+            {
+                "diff": 0.0003803544794174981,
+                "title": "tale_of_2_cities"
+            },
+            {
+                "diff": 0.0018515895719931601,
+                "title": "tales_of_terror_and_mystery1"
+            },
+            {
+                "diff": 0.001511286720270278,
+                "title": "tarzan_of_the_apes"
+            },
+            {
+                "diff": 0.0008283670820208907,
+                "title": "the_adventures_of_sherlock_holmes1"
+            },
+            {
+                "diff": 0.0005311193410625414,
+                "title": "the_adventures_of_tom_sawyer1"
+            },
+            {
+                "diff": 0.0016820945477866098,
+                "title": "the_hound_of_the_baskervilles1"
+            },
+            {
+                "diff": 0.002174148438460183,
+                "title": "the_jungle_book"
+            },
+            {
+                "diff": 0.0020859429025380403,
+                "title": "the_land_that_time_forgot1"
+            },
+            {
+                "diff": 0.0038925386917407663,
+                "title": "the_lost_world1"
+            },
+            {
+                "diff": 0.0023893371468951072,
+                "title": "the_people_that_time_forgot1"
+            },
+            {
+                "diff": 0.001663515665888152,
+                "title": "the_prince"
+            },
+            {
+                "diff": 0.00175779269161989,
+                "title": "the_time_machine"
+            },
+            {
+                "diff": 0.0037376875122316746,
+                "title": "the_trial"
+            },
+            {
+                "diff": 0.0057027093892304155,
+                "title": "through_the_looking_glass"
+            },
+            {
+                "diff": 0.002020634725992875,
+                "title": "warlord_of_mars"
+            },
+            {
+                "diff": 0.002709515328056537,
+                "title": "war_of_the_worlds"
+            },
+            {
+                "diff": 0.00251374759000266,
+                "title": "wuthering_heights"
+            }
+        ],
+        "title": "christmas_carol"
+    },
+    {
+        "diffs": [
+            {
+                "diff": 0.003210067181516721,
+                "title": "a_connecticut_yankee_in_king_arthur_s_court1"
+            },
+            {
+                "diff": 0.0034169339559406474,
+                "title": "adventures_of_huckleberry_finn1"
+            },
+            {
+                "diff": 0.0017172912611990933,
+                "title": "agnes_grey1"
+            },
+            {
+                "diff": 0.003575529594363298,
+                "title": "alices_adventures_in_wonderland"
+            },
+            {
+                "diff": 0.0013022672600652135,
+                "title": "christmas_carol"
+            },
+            {
+                "diff": 0.0,
+                "title": "fanny_hill"
+            },
+            {
+                "diff": 0.0020152444609914852,
+                "title": "jane_eyre1"
+            },
+            {
+                "diff": 0.0010462198627682374,
+                "title": "king_solomons_mines"
+            },
+            {
+                "diff": 0.002113719620556883,
+                "title": "legend_of_sleepy_hollow"
+            },
+            {
+                "diff": 0.003088401663224217,
+                "title": "metamorphosis"
+            },
+            {
+                "diff": 0.0009106258525846235,
+                "title": "tale_of_2_cities"
+            },
+            {
+                "diff": 0.0019705204048168314,
+                "title": "tales_of_terror_and_mystery1"
+            },
+            {
+                "diff": 0.0022500318096988756,
+                "title": "tarzan_of_the_apes"
+            },
+            {
+                "diff": 0.0010334840738855915,
+                "title": "the_adventures_of_sherlock_holmes1"
+            },
+            {
+                "diff": 0.0015204214530219078,
+                "title": "the_adventures_of_tom_sawyer1"
+            },
+            {
+                "diff": 0.002115027593546132,
+                "title": "the_hound_of_the_baskervilles1"
+            },
+            {
+                "diff": 0.0032438303003786383,
+                "title": "the_jungle_book"
+            },
+            {
+                "diff": 0.0019226133667761024,
+                "title": "the_land_that_time_forgot1"
+            },
+            {
+                "diff": 0.004175367775591711,
+                "title": "the_lost_world1"
+            },
+            {
+                "diff": 0.0019658998948255844,
+                "title": "the_people_that_time_forgot1"
+            },
+            {
+                "diff": 0.0020328199826243104,
+                "title": "the_prince"
+            },
+            {
+                "diff": 0.0013835302417559152,
+                "title": "the_time_machine"
+            },
+            {
+                "diff": 0.00461758455446763,
+                "title": "the_trial"
+            },
+            {
+                "diff": 0.006835360275216727,
+                "title": "through_the_looking_glass"
+            },
+            {
+                "diff": 0.0015212693360928315,
+                "title": "warlord_of_mars"
+            },
+            {
+                "diff": 0.0030306522129842587,
+                "title": "war_of_the_worlds"
+            },
+            {
+                "diff": 0.002499899695098122,
+                "title": "wuthering_heights"
+            }
+        ],
+        "title": "fanny_hill"
+    },
+    {
+        "diffs": [
+            {
+                "diff": 0.001062843357725488,
+                "title": "a_connecticut_yankee_in_king_arthur_s_court1"
+            },
+            {
+                "diff": 0.00131200270238821,
+                "title": "adventures_of_huckleberry_finn1"
+            },
+            {
+                "diff": 0.0002948287804721618,
+                "title": "agnes_grey1"
+            },
+            {
+                "diff": 0.001768711844538704,
+                "title": "alices_adventures_in_wonderland"
+            },
+            {
+                "diff": 0.002279160958992684,
+                "title": "christmas_carol"
+            },
+            {
+                "diff": 0.002015244460992108,
+                "title": "fanny_hill"
+            },
+            {
+                "diff": 0.0,
+                "title": "jane_eyre1"
+            },
+            {
+                "diff": 0.0018149332770017975,
+                "title": "king_solomons_mines"
+            },
+            {
+                "diff": 0.004258491933789721,
+                "title": "legend_of_sleepy_hollow"
+            },
+            {
+                "diff": 0.0025961102513881932,
+                "title": "metamorphosis"
+            },
+            {
+                "diff": 0.0018811655141051777,
+                "title": "tale_of_2_cities"
+            },
+            {
+                "diff": 0.0008857644363513456,
+                "title": "tales_of_terror_and_mystery1"
+            },
+            {
+                "diff": 0.002571247755507342,
+                "title": "tarzan_of_the_apes"
+            },
+            {
+                "diff": 0.0013450501542980192,
+                "title": "the_adventures_of_sherlock_holmes1"
+            },
+            {
+                "diff": 0.0019310897074208261,
+                "title": "the_adventures_of_tom_sawyer1"
+            },
+            {
+                "diff": 0.0008838985014844672,
+                "title": "the_hound_of_the_baskervilles1"
+            },
+            {
+                "diff": 0.0019596961140282048,
+                "title": "the_jungle_book"
+            },
+            {
+                "diff": 0.0010643019238495157,
+                "title": "the_land_that_time_forgot1"
+            },
+            {
+                "diff": 0.0017768464961151957,
+                "title": "the_lost_world1"
+            },
+            {
+                "diff": 0.0010088741943082291,
+                "title": "the_people_that_time_forgot1"
+            },
+            {
+                "diff": 0.0024900972106677555,
+                "title": "the_prince"
+            },
+            {
+                "diff": 0.0023088801082928405,
+                "title": "the_time_machine"
+            },
+            {
+                "diff": 0.0021869388824389104,
+                "title": "the_trial"
+            },
+            {
+                "diff": 0.0028348920153530607,
+                "title": "through_the_looking_glass"
+            },
+            {
+                "diff": 0.002223823802792977,
+                "title": "warlord_of_mars"
+            },
+            {
+                "diff": 0.00222832938354463,
+                "title": "war_of_the_worlds"
+            },
+            {
+                "diff": 0.00033728556986298595,
+                "title": "wuthering_heights"
+            }
+        ],
+        "title": "jane_eyre1"
+    },
+    {
+        "diffs": [
+            {
+                "diff": 0.0022470433824887137,
+                "title": "a_connecticut_yankee_in_king_arthur_s_court1"
+            },
+            {
+                "diff": 0.0025155551220949228,
+                "title": "adventures_of_huckleberry_finn1"
+            },
+            {
+                "diff": 0.0018537412971304332,
+                "title": "agnes_grey1"
+            },
+            {
+                "diff": 0.0023545684682179414,
+                "title": "alices_adventures_in_wonderland"
+            },
+            {
+                "diff": 0.0007437781344377161,
+                "title": "christmas_carol"
+            },
+            {
+                "diff": 0.0010462198627681585,
+                "title": "fanny_hill"
+            },
+            {
+                "diff": 0.0018149332770017986,
+                "title": "jane_eyre1"
+            },
+            {
+                "diff": 0.0,
+                "title": "king_solomons_mines"
+            },
+            {
+                "diff": 0.0016213502597079577,
+                "title": "legend_of_sleepy_hollow"
+            },
+            {
+                "diff": 0.0027243710317020626,
+                "title": "metamorphosis"
+            },
+            {
+                "diff": 0.0004905877147566313,
+                "title": "tale_of_2_cities"
+            },
+            {
+                "diff": 0.0013435000476212965,
+                "title": "tales_of_terror_and_mystery1"
+            },
+            {
+                "diff": 0.0013641282078129407,
+                "title": "tarzan_of_the_apes"
+            },
+            {
+                "diff": 0.0005912266744581874,
+                "title": "the_adventures_of_sherlock_holmes1"
+            },
+            {
+                "diff": 0.0009002758489439371,
+                "title": "the_adventures_of_tom_sawyer1"
+            },
+            {
+                "diff": 0.0011629924630179647,
+                "title": "the_hound_of_the_baskervilles1"
+            },
+            {
+                "diff": 0.0018729998102105523,
+                "title": "the_jungle_book"
+            },
+            {
+                "diff": 0.0010374524602011857,
+                "title": "the_land_that_time_forgot1"
+            },
+            {
+                "diff": 0.0029469794814864663,
+                "title": "the_lost_world1"
+            },
+            {
+                "diff": 0.0014167946959527265,
+                "title": "the_people_that_time_forgot1"
+            },
+            {
+                "diff": 0.0015141440024014146,
+                "title": "the_prince"
+            },
+            {
+                "diff": 0.0010168037340966564,
+                "title": "the_time_machine"
+            },
+            {
+                "diff": 0.0036540024160192524,
+                "title": "the_trial"
+            },
+            {
+                "diff": 0.005342137748712868,
+                "title": "through_the_looking_glass"
+            },
+            {
+                "diff": 0.0010390486480880835,
+                "title": "warlord_of_mars"
+            },
+            {
+                "diff": 0.0018152890002158745,
+                "title": "war_of_the_worlds"
+            },
+            {
+                "diff": 0.0022825774049301624,
+                "title": "wuthering_heights"
+            }
+        ],
+        "title": "king_solomons_mines"
+    },
+    {
+        "diffs": [
+            {
+                "diff": 0.003693367929242937,
+                "title": "a_connecticut_yankee_in_king_arthur_s_court1"
+            },
+            {
+                "diff": 0.0046715838973995305,
+                "title": "adventures_of_huckleberry_finn1"
+            },
+            {
+                "diff": 0.004353275789316823,
+                "title": "agnes_grey1"
+            },
+            {
+                "diff": 0.004080313138534198,
+                "title": "alices_adventures_in_wonderland"
+            },
+            {
+                "diff": 0.0016325349656870379,
+                "title": "christmas_carol"
+            },
+            {
+                "diff": 0.002113719620556982,
+                "title": "fanny_hill"
+            },
+            {
+                "diff": 0.004258491933789727,
+                "title": "jane_eyre1"
+            },
+            {
+                "diff": 0.00162135025970796,
+                "title": "king_solomons_mines"
+            },
+            {
+                "diff": 0.0,
+                "title": "legend_of_sleepy_hollow"
+            },
+            {
+                "diff": 0.00351689453932713,
+                "title": "metamorphosis"
+            },
+            {
+                "diff": 0.0012752124441732548,
+                "title": "tale_of_2_cities"
+            },
+            {
+                "diff": 0.002660419710351161,
+                "title": "tales_of_terror_and_mystery1"
+            },
+            {
+                "diff": 0.0012581059141532924,
+                "title": "tarzan_of_the_apes"
+            },
+            {
+                "diff": 0.0025696046660492497,
+                "title": "the_adventures_of_sherlock_holmes1"
+            },
+            {
+                "diff": 0.0019317135073016506,
+                "title": "the_adventures_of_tom_sawyer1"
+            },
+            {
+                "diff": 0.002942571028177272,
+                "title": "the_hound_of_the_baskervilles1"
+            },
+            {
+                "diff": 0.0025887931912086715,
+                "title": "the_jungle_book"
+            },
+            {
+                "diff": 0.0028081144145324496,
+                "title": "the_land_that_time_forgot1"
+            },
+            {
+                "diff": 0.00434981684997757,
+                "title": "the_lost_world1"
+            },
+            {
+                "diff": 0.002944860387147007,
+                "title": "the_people_that_time_forgot1"
+            },
+            {
+                "diff": 0.002069685923295487,
+                "title": "the_prince"
+            },
+            {
+                "diff": 0.0023894097948771497,
+                "title": "the_time_machine"
+            },
+            {
+                "diff": 0.005163254631402869,
+                "title": "the_trial"
+            },
+            {
+                "diff": 0.007177381260637622,
+                "title": "through_the_looking_glass"
+            },
+            {
+                "diff": 0.0019446145567720223,
+                "title": "warlord_of_mars"
+            },
+            {
+                "diff": 0.0021286623956295837,
+                "title": "war_of_the_worlds"
+            },
+            {
+                "diff": 0.004536853098156536,
+                "title": "wuthering_heights"
+            }
+        ],
+        "title": "legend_of_sleepy_hollow"
+    },
+    {
+        "diffs": [
+            {
+                "diff": 0.002070426282357239,
+                "title": "a_connecticut_yankee_in_king_arthur_s_court1"
+            },
+            {
+                "diff": 0.0028747274667840633,
+                "title": "adventures_of_huckleberry_finn1"
+            },
+            {
+                "diff": 0.002314753877338977,
+                "title": "agnes_grey1"
+            },
+            {
+                "diff": 0.0022639807189403635,
+                "title": "alices_adventures_in_wonderland"
+            },
+            {
+                "diff": 0.002297724790268627,
+                "title": "christmas_carol"
+            },
+            {
+                "diff": 0.0030884016632244248,
+                "title": "fanny_hill"
+            },
+            {
+                "diff": 0.0025961102513881954,
+                "title": "jane_eyre1"
+            },
+            {
+                "diff": 0.002724371031702052,
+                "title": "king_solomons_mines"
+            },
+            {
+                "diff": 0.0035168945393271294,
+                "title": "legend_of_sleepy_hollow"
+            },
+            {
+                "diff": 0.0,
+                "title": "metamorphosis"
+            },
+            {
+                "diff": 0.0020630450036221095,
+                "title": "tale_of_2_cities"
+            },
+            {
+                "diff": 0.001774015879797686,
+                "title": "tales_of_terror_and_mystery1"
+            },
+            {
+                "diff": 0.0015153366850011764,
+                "title": "tarzan_of_the_apes"
+            },
+            {
+                "diff": 0.0027942898072672606,
+                "title": "the_adventures_of_sherlock_holmes1"
+            },
+            {
+                "diff": 0.001936209903258675,
+                "title": "the_adventures_of_tom_sawyer1"
+            },
+            {
+                "diff": 0.001776981497394064,
+                "title": "the_hound_of_the_baskervilles1"
+            },
+            {
+                "diff": 0.001665776238085955,
+                "title": "the_jungle_book"
+            },
+            {
+                "diff": 0.00253993540188051,
+                "title": "the_land_that_time_forgot1"
+            },
+            {
+                "diff": 0.002647327554063229,
+                "title": "the_lost_world1"
+            },
+            {
+                "diff": 0.0025127056160169623,
+                "title": "the_people_that_time_forgot1"
+            },
+            {
+                "diff": 0.0016684683941547537,
+                "title": "the_prince"
+            },
+            {
+                "diff": 0.004626314904931834,
+                "title": "the_time_machine"
+            },
+            {
+                "diff": 0.0013467439813494404,
+                "title": "the_trial"
+            },
+            {
+                "diff": 0.0034404216900410173,
+                "title": "through_the_looking_glass"
+            },
+            {
+                "diff": 0.0033166138778337687,
+                "title": "warlord_of_mars"
+            },
+            {
+                "diff": 0.0030011618311904993,
+                "title": "war_of_the_worlds"
+            },
+            {
+                "diff": 0.0019925809888216637,
+                "title": "wuthering_heights"
+            }
+        ],
+        "title": "metamorphosis"
+    },
+    {
+        "diffs": [
+            {
+                "diff": 0.0024318367122473355,
+                "title": "a_connecticut_yankee_in_king_arthur_s_court1"
+            },
+            {
+                "diff": 0.0026500363013765636,
+                "title": "adventures_of_huckleberry_finn1"
+            },
+            {
+                "diff": 0.0018573481743575427,
+                "title": "agnes_grey1"
+            },
+            {
+                "diff": 0.002248896424277544,
+                "title": "alices_adventures_in_wonderland"
+            },
+            {
+                "diff": 0.00038035447941751503,
+                "title": "christmas_carol"
+            },
+            {
+                "diff": 0.0009106258525846239,
+                "title": "fanny_hill"
+            },
+            {
+                "diff": 0.0018811655141051777,
+                "title": "jane_eyre1"
+            },
+            {
+                "diff": 0.0004905877147566279,
+                "title": "king_solomons_mines"
+            },
+            {
+                "diff": 0.0012752124441732548,
+                "title": "legend_of_sleepy_hollow"
+            },
+            {
+                "diff": 0.002063045003622208,
+                "title": "metamorphosis"
+            },
+            {
+                "diff": 0.0,
+                "title": "tale_of_2_cities"
+            },
+            {
+                "diff": 0.001420180627325359,
+                "title": "tales_of_terror_and_mystery1"
+            },
+            {
+                "diff": 0.0010569462840782002,
+                "title": "tarzan_of_the_apes"
+            },
+            {
+                "diff": 0.000582560562332531,
+                "title": "the_adventures_of_sherlock_holmes1"
+            },
+            {
+                "diff": 0.0005541866488902407,
+                "title": "the_adventures_of_tom_sawyer1"
+            },
+            {
+                "diff": 0.0013069458194529253,
+                "title": "the_hound_of_the_baskervilles1"
+            },
+            {
+                "diff": 0.0018460046224396739,
+                "title": "the_jungle_book"
+            },
+            {
+                "diff": 0.0015561618709680296,
+                "title": "the_land_that_time_forgot1"
+            },
+            {
+                "diff": 0.0034144809368278207,
+                "title": "the_lost_world1"
+            },
+            {
+                "diff": 0.0017936151420736995,
+                "title": "the_people_that_time_forgot1"
+            },
+            {
+                "diff": 0.0012738468473576204,
+                "title": "the_prince"
+            },
+            {
+                "diff": 0.001325789388588056,
+                "title": "the_time_machine"
+            },
+            {
+                "diff": 0.00340100854760158,
+                "title": "the_trial"
+            },
+            {
+                "diff": 0.005337681507295179,
+                "title": "through_the_looking_glass"
+            },
+            {
+                "diff": 0.001343510084147643,
+                "title": "warlord_of_mars"
+            },
+            {
+                "diff": 0.00212444752312888,
+                "title": "war_of_the_worlds"
+            },
+            {
+                "diff": 0.002130413278889026,
+                "title": "wuthering_heights"
+            }
+        ],
+        "title": "tale_of_2_cities"
+    },
+    {
+        "diffs": [
+            {
+                "diff": 0.000689411066471744,
+                "title": "a_connecticut_yankee_in_king_arthur_s_court1"
+            },
+            {
+                "diff": 0.001891911375138426,
+                "title": "adventures_of_huckleberry_finn1"
+            },
+            {
+                "diff": 0.0012178800897944206,
+                "title": "agnes_grey1"
+            },
+            {
+                "diff": 0.0015101107240541255,
+                "title": "alices_adventures_in_wonderland"
+            },
+            {
+                "diff": 0.001851589571993168,
+                "title": "christmas_carol"
+            },
+            {
+                "diff": 0.001970520404818259,
+                "title": "fanny_hill"
+            },
+            {
+                "diff": 0.0008857644363513459,
+                "title": "jane_eyre1"
+            },
+            {
+                "diff": 0.0013435000476212957,
+                "title": "king_solomons_mines"
+            },
+            {
+                "diff": 0.0026604197103511735,
+                "title": "legend_of_sleepy_hollow"
+            },
+            {
+                "diff": 0.0017740158797976797,
+                "title": "metamorphosis"
+            },
+            {
+                "diff": 0.0014201806273253592,
+                "title": "tale_of_2_cities"
+            },
+            {
+                "diff": 0.0,
+                "title": "tales_of_terror_and_mystery1"
+            },
+            {
+                "diff": 0.00114431499123863,
+                "title": "tarzan_of_the_apes"
+            },
+            {
+                "diff": 0.0012634705980659835,
+                "title": "the_adventures_of_sherlock_holmes1"
+            },
+            {
+                "diff": 0.0017598487415564767,
+                "title": "the_adventures_of_tom_sawyer1"
+            },
+            {
+                "diff": 0.00026356996885185086,
+                "title": "the_hound_of_the_baskervilles1"
+            },
+            {
+                "diff": 0.0011048025105071682,
+                "title": "the_jungle_book"
+            },
+            {
+                "diff": 0.0005906212522634501,
+                "title": "the_land_that_time_forgot1"
+            },
+            {
+                "diff": 0.0007691645961445528,
+                "title": "the_lost_world1"
+            },
+            {
+                "diff": 0.00047826623495793617,
+                "title": "the_people_that_time_forgot1"
+            },
+            {
+                "diff": 0.0016242429259067013,
+                "title": "the_prince"
+            },
+            {
+                "diff": 0.001976657300643485,
+                "title": "the_time_machine"
+            },
+            {
+                "diff": 0.0014695722195424016,
+                "title": "the_trial"
+            },
+            {
+                "diff": 0.0025380436344156283,
+                "title": "through_the_looking_glass"
+            },
+            {
+                "diff": 0.0011194977444531217,
+                "title": "warlord_of_mars"
+            },
+            {
+                "diff": 0.0009346880290452307,
+                "title": "war_of_the_worlds"
+            },
+            {
+                "diff": 0.0012073339425664501,
+                "title": "wuthering_heights"
+            }
+        ],
+        "title": "tales_of_terror_and_mystery1"
+    },
+    {
+        "diffs": [
+            {
+                "diff": 0.001947018089634736,
+                "title": "a_connecticut_yankee_in_king_arthur_s_court1"
+            },
+            {
+                "diff": 0.0031631942740083458,
+                "title": "adventures_of_huckleberry_finn1"
+            },
+            {
+                "diff": 0.0027110195399600327,
+                "title": "agnes_grey1"
+            },
+            {
+                "diff": 0.0020015117714957003,
+                "title": "alices_adventures_in_wonderland"
+            },
+            {
+                "diff": 0.0015112867202702928,
+                "title": "christmas_carol"
+            },
+            {
+                "diff": 0.002250031809699824,
+                "title": "fanny_hill"
+            },
+            {
+                "diff": 0.0025712477555073403,
+                "title": "jane_eyre1"
+            },
+            {
+                "diff": 0.001364128207812935,
+                "title": "king_solomons_mines"
+            },
+            {
+                "diff": 0.001258105914153282,
+                "title": "legend_of_sleepy_hollow"
+            },
+            {
+                "diff": 0.0015153366850011658,
+                "title": "metamorphosis"
+            },
+            {
+                "diff": 0.0010569462840781573,
+                "title": "tale_of_2_cities"
+            },
+            {
+                "diff": 0.0011443149912386216,
+                "title": "tales_of_terror_and_mystery1"
+            },
+            {
+                "diff": 0.0,
+                "title": "tarzan_of_the_apes"
+            },
+            {
+                "diff": 0.0019480218547094296,
+                "title": "the_adventures_of_sherlock_holmes1"
+            },
+            {
+                "diff": 0.0014227002417457847,
+                "title": "the_adventures_of_tom_sawyer1"
+            },
+            {
+                "diff": 0.0012833297566595767,
+                "title": "the_hound_of_the_baskervilles1"
+            },
+            {
+                "diff": 0.0009795858313222379,
+                "title": "the_jungle_book"
+            },
+            {
+                "diff": 0.0013851942700146428,
+                "title": "the_land_that_time_forgot1"
+            },
+            {
+                "diff": 0.002172143683628756,
+                "title": "the_lost_world1"
+            },
+            {
+                "diff": 0.001406358489141603,
+                "title": "the_people_that_time_forgot1"
+            },
+            {
+                "diff": 0.0012010153097368496,
+                "title": "the_prince"
+            },
+            {
+                "diff": 0.0024743719907589995,
+                "title": "the_time_machine"
+            },
+            {
+                "diff": 0.002272063654768369,
+                "title": "the_trial"
+            },
+            {
+                "diff": 0.003930201568761594,
+                "title": "through_the_looking_glass"
+            },
+            {
+                "diff": 0.001176133982652664,
+                "title": "warlord_of_mars"
+            },
+            {
+                "diff": 0.0011495766759287286,
+                "title": "war_of_the_worlds"
+            },
+            {
+                "diff": 0.002524569921401506,
+                "title": "wuthering_heights"
+            }
+        ],
+        "title": "tarzan_of_the_apes"
+    },
+    {
+        "diffs": [
+            {
+                "diff": 0.0026214305470536447,
+                "title": "a_connecticut_yankee_in_king_arthur_s_court1"
+            },
+            {
+                "diff": 0.002654232297887126,
+                "title": "adventures_of_huckleberry_finn1"
+            },
+            {
+                "diff": 0.0015160941128714417,
+                "title": "agnes_grey1"
+            },
+            {
+                "diff": 0.002530846976823695,
+                "title": "alices_adventures_in_wonderland"
+            },
+            {
+                "diff": 0.0008283670820208921,
+                "title": "christmas_carol"
+            },
+            {
+                "diff": 0.0010334840738855,
+                "title": "fanny_hill"
+            },
+            {
+                "diff": 0.0013450501542980173,
+                "title": "jane_eyre1"
+            },
+            {
+                "diff": 0.0005912266744581903,
+                "title": "king_solomons_mines"
+            },
+            {
+                "diff": 0.002569604666049249,
+                "title": "legend_of_sleepy_hollow"
+            },
+            {
+                "diff": 0.0027942898072672597,
+                "title": "metamorphosis"
+            },
+            {
+                "diff": 0.0005825605623325289,
+                "title": "tale_of_2_cities"
+            },
+            {
+                "diff": 0.0012634705980659828,
+                "title": "tales_of_terror_and_mystery1"
+            },
+            {
+                "diff": 0.0019480218547094279,
+                "title": "tarzan_of_the_apes"
+            },
+            {
+                "diff": 0.0,
+                "title": "the_adventures_of_sherlock_holmes1"
+            },
+            {
+                "diff": 0.0010551057059049944,
+                "title": "the_adventures_of_tom_sawyer1"
+            },
+            {
+                "diff": 0.0009669058221225198,
+                "title": "the_hound_of_the_baskervilles1"
+            },
+            {
+                "diff": 0.002532740847544419,
+                "title": "the_jungle_book"
+            },
+            {
+                "diff": 0.0014783580314999308,
+                "title": "the_land_that_time_forgot1"
+            },
+            {
+                "diff": 0.0033590838152482323,
+                "title": "the_lost_world1"
+            },
+            {
+                "diff": 0.0017429355055568533,
+                "title": "the_people_that_time_forgot1"
+            },
+            {
+                "diff": 0.002040374366178523,
+                "title": "the_prince"
+            },
+            {
+                "diff": 0.0011464359867068145,
+                "title": "the_time_machine"
+            },
+            {
+                "diff": 0.003653849182623472,
+                "title": "the_trial"
+            },
+            {
+                "diff": 0.005507470314676118,
+                "title": "through_the_looking_glass"
+            },
+            {
+                "diff": 0.0014065611894347049,
+                "title": "warlord_of_mars"
+            },
+            {
+                "diff": 0.002739285108568089,
+                "title": "war_of_the_worlds"
+            },
+            {
+                "diff": 0.0019248514292904485,
+                "title": "wuthering_heights"
+            }
+        ],
+        "title": "the_adventures_of_sherlock_holmes1"
+    },
+    {
+        "diffs": [
+            {
+                "diff": 0.0021267992918317063,
+                "title": "a_connecticut_yankee_in_king_arthur_s_court1"
+            },
+            {
+                "diff": 0.0016597757241717547,
+                "title": "adventures_of_huckleberry_finn1"
+            },
+            {
+                "diff": 0.0017638901100602907,
+                "title": "agnes_grey1"
+            },
+            {
+                "diff": 0.0021073004063362163,
+                "title": "alices_adventures_in_wonderland"
+            },
+            {
+                "diff": 0.0005311193410630684,
+                "title": "christmas_carol"
+            },
+            {
+                "diff": 0.0015204214530219065,
+                "title": "fanny_hill"
+            },
+            {
+                "diff": 0.001931089707420826,
+                "title": "jane_eyre1"
+            },
+            {
+                "diff": 0.0009002758489439403,
+                "title": "king_solomons_mines"
+            },
+            {
+                "diff": 0.0019317135073016506,
+                "title": "legend_of_sleepy_hollow"
+            },
+            {
+                "diff": 0.0019362099032586744,
+                "title": "metamorphosis"
+            },
+            {
+                "diff": 0.0005541866488902665,
+                "title": "tale_of_2_cities"
+            },
+            {
+                "diff": 0.0017598487415564764,
+                "title": "tales_of_terror_and_mystery1"
+            },
+            {
+                "diff": 0.0014227002417457847,
+                "title": "tarzan_of_the_apes"
+            },
+            {
+                "diff": 0.0010551057059053955,
+                "title": "the_adventures_of_sherlock_holmes1"
+            },
+            {
+                "diff": 0.0,
+                "title": "the_adventures_of_tom_sawyer1"
+            },
+            {
+                "diff": 0.0016307224869966362,
+                "title": "the_hound_of_the_baskervilles1"
+            },
+            {
+                "diff": 0.00176174810887934,
+                "title": "the_jungle_book"
+            },
+            {
+                "diff": 0.001801562264537802,
+                "title": "the_land_that_time_forgot1"
+            },
+            {
+                "diff": 0.0036193918366640154,
+                "title": "the_lost_world1"
+            },
+            {
+                "diff": 0.002121256119350852,
+                "title": "the_people_that_time_forgot1"
+            },
+            {
+                "diff": 0.0016848489372602775,
+                "title": "the_prince"
+            },
+            {
+                "diff": 0.0019470383654774269,
+                "title": "the_time_machine"
+            },
+            {
+                "diff": 0.0032568966806472387,
+                "title": "the_trial"
+            },
+            {
+                "diff": 0.004904692262827125,
+                "title": "through_the_looking_glass"
+            },
+            {
+                "diff": 0.0021999499012705275,
+                "title": "warlord_of_mars"
+            },
+            {
+                "diff": 0.0024718396988179328,
+                "title": "war_of_the_worlds"
+            },
+            {
+                "diff": 0.0019526381945935366,
+                "title": "wuthering_heights"
+            }
+        ],
+        "title": "the_adventures_of_tom_sawyer1"
+    },
+    {
+        "diffs": [
+            {
+                "diff": 0.0009312515761540334,
+                "title": "a_connecticut_yankee_in_king_arthur_s_court1"
+            },
+            {
+                "diff": 0.0019375557386931176,
+                "title": "adventures_of_huckleberry_finn1"
+            },
+            {
+                "diff": 0.0012279260660354723,
+                "title": "agnes_grey1"
+            },
+            {
+                "diff": 0.0015753688826144285,
+                "title": "alices_adventures_in_wonderland"
+            },
+            {
+                "diff": 0.001682094547786615,
+                "title": "christmas_carol"
+            },
+            {
+                "diff": 0.0021150275935470655,
+                "title": "fanny_hill"
+            },
+            {
+                "diff": 0.0008838985014844671,
+                "title": "jane_eyre1"
+            },
+            {
+                "diff": 0.001162992463017964,
+                "title": "king_solomons_mines"
+            },
+            {
+                "diff": 0.0029425710281772736,
+                "title": "legend_of_sleepy_hollow"
+            },
+            {
+                "diff": 0.0017769814973940578,
+                "title": "metamorphosis"
+            },
+            {
+                "diff": 0.0013069458194529251,
+                "title": "tale_of_2_cities"
+            },
+            {
+                "diff": 0.00026356996885186604,
+                "title": "tales_of_terror_and_mystery1"
+            },
+            {
+                "diff": 0.0012833297566595863,
+                "title": "tarzan_of_the_apes"
+            },
+            {
+                "diff": 0.0009669058221225195,
+                "title": "the_adventures_of_sherlock_holmes1"
+            },
+            {
+                "diff": 0.001630722486996635,
+                "title": "the_adventures_of_tom_sawyer1"
+            },
+            {
+                "diff": 0.0,
+                "title": "the_hound_of_the_baskervilles1"
+            },
+            {
+                "diff": 0.0011488172087110013,
+                "title": "the_jungle_book"
+            },
+            {
+                "diff": 0.0008186235840014367,
+                "title": "the_land_that_time_forgot1"
+            },
+            {
+                "diff": 0.0010019101618279423,
+                "title": "the_lost_world1"
+            },
+            {
+                "diff": 0.0008311698659518956,
+                "title": "the_people_that_time_forgot1"
+            },
+            {
+                "diff": 0.0015328880779735608,
+                "title": "the_prince"
+            },
+            {
+                "diff": 0.002270506847238975,
+                "title": "the_time_machine"
+            },
+            {
+                "diff": 0.0014477565676932137,
+                "title": "the_trial"
+            },
+            {
+                "diff": 0.002698321817229194,
+                "title": "through_the_looking_glass"
+            },
+            {
+                "diff": 0.00137763384962781,
+                "title": "warlord_of_mars"
+            },
+            {
+                "diff": 0.0014352339504232383,
+                "title": "war_of_the_worlds"
+            },
+            {
+                "diff": 0.0010992388137991247,
+                "title": "wuthering_heights"
+            }
+        ],
+        "title": "the_hound_of_the_baskervilles1"
+    },
+    {
+        "diffs": [
+            {
+                "diff": 0.0009659124290248009,
+                "title": "a_connecticut_yankee_in_king_arthur_s_court1"
+            },
+            {
+                "diff": 0.0017979913044518139,
+                "title": "adventures_of_huckleberry_finn1"
+            },
+            {
+                "diff": 0.0022059762588282515,
+                "title": "agnes_grey1"
+            },
+            {
+                "diff": 0.0015709643663308738,
+                "title": "alices_adventures_in_wonderland"
+            },
+            {
+                "diff": 0.002174148438460158,
+                "title": "christmas_carol"
+            },
+            {
+                "diff": 0.0032438303003795854,
+                "title": "fanny_hill"
+            },
+            {
+                "diff": 0.001959696114028584,
+                "title": "jane_eyre1"
+            },
+            {
+                "diff": 0.0018729998102105523,
+                "title": "king_solomons_mines"
+            },
+            {
+                "diff": 0.002588793191208684,
+                "title": "legend_of_sleepy_hollow"
+            },
+            {
+                "diff": 0.001665776238085945,
+                "title": "metamorphosis"
+            },
+            {
+                "diff": 0.0018460046224396739,
+                "title": "tale_of_2_cities"
+            },
+            {
+                "diff": 0.0011048025105071537,
+                "title": "tales_of_terror_and_mystery1"
+            },
+            {
+                "diff": 0.00097958583132242,
+                "title": "tarzan_of_the_apes"
+            },
+            {
+                "diff": 0.002532740847544429,
+                "title": "the_adventures_of_sherlock_holmes1"
+            },
+            {
+                "diff": 0.0017617481088793403,
+                "title": "the_adventures_of_tom_sawyer1"
+            },
+            {
+                "diff": 0.0011488172087109755,
+                "title": "the_hound_of_the_baskervilles1"
+            },
+            {
+                "diff": 0.0,
+                "title": "the_jungle_book"
+            },
+            {
+                "diff": 0.0013483329519800957,
+                "title": "the_land_that_time_forgot1"
+            },
+            {
+                "diff": 0.0014454166529957525,
+                "title": "the_lost_world1"
+            },
+            {
+                "diff": 0.0013343680123715496,
+                "title": "the_people_that_time_forgot1"
+            },
+            {
+                "diff": 0.0015062219357892298,
+                "title": "the_prince"
+            },
+            {
+                "diff": 0.003252873771270425,
+                "title": "the_time_machine"
+            },
+            {
+                "diff": 0.0014329540568113392,
+                "title": "the_trial"
+            },
+            {
+                "diff": 0.0024192201503092548,
+                "title": "through_the_looking_glass"
+            },
+            {
+                "diff": 0.00213912005774709,
+                "title": "warlord_of_mars"
+            },
+            {
+                "diff": 0.0010190674924283468,
+                "title": "war_of_the_worlds"
+            },
+            {
+                "diff": 0.0016632755165251227,
+                "title": "wuthering_heights"
+            }
+        ],
+        "title": "the_jungle_book"
+    },
+    {
+        "diffs": [
+            {
+                "diff": 0.0010342600506037319,
+                "title": "a_connecticut_yankee_in_king_arthur_s_court1"
+            },
+            {
+                "diff": 0.0017623560566688205,
+                "title": "adventures_of_huckleberry_finn1"
+            },
+            {
+                "diff": 0.00128702044252625,
+                "title": "agnes_grey1"
+            },
+            {
+                "diff": 0.0017112023916688256,
+                "title": "alices_adventures_in_wonderland"
+            },
+            {
+                "diff": 0.0020859429025379614,
+                "title": "christmas_carol"
+            },
+            {
+                "diff": 0.0019226133667760838,
+                "title": "fanny_hill"
+            },
+            {
+                "diff": 0.0010643019238495198,
+                "title": "jane_eyre1"
+            },
+            {
+                "diff": 0.0010374524602012,
+                "title": "king_solomons_mines"
+            },
+            {
+                "diff": 0.0028081144145324487,
+                "title": "legend_of_sleepy_hollow"
+            },
+            {
+                "diff": 0.0025399354018805147,
+                "title": "metamorphosis"
+            },
+            {
+                "diff": 0.0015561618709680294,
+                "title": "tale_of_2_cities"
+            },
+            {
+                "diff": 0.0005906212522634477,
+                "title": "tales_of_terror_and_mystery1"
+            },
+            {
+                "diff": 0.001385194270014653,
+                "title": "tarzan_of_the_apes"
+            },
+            {
+                "diff": 0.0014783580314999348,
+                "title": "the_adventures_of_sherlock_holmes1"
+            },
+            {
+                "diff": 0.0018015622645378025,
+                "title": "the_adventures_of_tom_sawyer1"
+            },
+            {
+                "diff": 0.0008186235840014362,
+                "title": "the_hound_of_the_baskervilles1"
+            },
+            {
+                "diff": 0.001348332951980106,
+                "title": "the_jungle_book"
+            },
+            {
+                "diff": 0.0,
+                "title": "the_land_that_time_forgot1"
+            },
+            {
+                "diff": 0.0013529232252739126,
+                "title": "the_lost_world1"
+            },
+            {
+                "diff": 0.00021321415515052132,
+                "title": "the_people_that_time_forgot1"
+            },
+            {
+                "diff": 0.0020880073030408583,
+                "title": "the_prince"
+            },
+            {
+                "diff": 0.001374664419836854,
+                "title": "the_time_machine"
+            },
+            {
+                "diff": 0.0024649500572533744,
+                "title": "the_trial"
+            },
+            {
+                "diff": 0.003287469511755992,
+                "title": "through_the_looking_glass"
+            },
+            {
+                "diff": 0.0008296365516374486,
+                "title": "warlord_of_mars"
+            },
+            {
+                "diff": 0.0007975449856597855,
+                "title": "war_of_the_worlds"
+            },
+            {
+                "diff": 0.0014334518388860297,
+                "title": "wuthering_heights"
+            }
+        ],
+        "title": "the_land_that_time_forgot1"
+    },
+    {
+        "diffs": [
+            {
+                "diff": 0.0007078338100259549,
+                "title": "a_connecticut_yankee_in_king_arthur_s_court1"
+            },
+            {
+                "diff": 0.0026437052448159424,
+                "title": "adventures_of_huckleberry_finn1"
+            },
+            {
+                "diff": 0.002260386635962658,
+                "title": "agnes_grey1"
+            },
+            {
+                "diff": 0.0020067988798316352,
+                "title": "alices_adventures_in_wonderland"
+            },
+            {
+                "diff": 0.0038925386917406965,
+                "title": "christmas_carol"
+            },
+            {
+                "diff": 0.004175367775590368,
+                "title": "fanny_hill"
+            },
+            {
+                "diff": 0.0017768464961151944,
+                "title": "jane_eyre1"
+            },
+            {
+                "diff": 0.002946979481486466,
+                "title": "king_solomons_mines"
+            },
+            {
+                "diff": 0.004349816849977597,
+                "title": "legend_of_sleepy_hollow"
+            },
+            {
+                "diff": 0.0026473275540632416,
+                "title": "metamorphosis"
+            },
+            {
+                "diff": 0.0034144809368278203,
+                "title": "tale_of_2_cities"
+            },
+            {
+                "diff": 0.0007691645961445527,
+                "title": "tales_of_terror_and_mystery1"
+            },
+            {
+                "diff": 0.002172143683628767,
+                "title": "tarzan_of_the_apes"
+            },
+            {
+                "diff": 0.003359083815248232,
+                "title": "the_adventures_of_sherlock_holmes1"
+            },
+            {
+                "diff": 0.0036193918366640154,
+                "title": "the_adventures_of_tom_sawyer1"
+            },
+            {
+                "diff": 0.001001910161827232,
+                "title": "the_hound_of_the_baskervilles1"
+            },
+            {
+                "diff": 0.0014454166529957572,
+                "title": "the_jungle_book"
+            },
+            {
+                "diff": 0.0013529232252739124,
+                "title": "the_land_that_time_forgot1"
+            },
+            {
+                "diff": 0.0,
+                "title": "the_lost_world1"
+            },
+            {
+                "diff": 0.0011356517785831497,
+                "title": "the_people_that_time_forgot1"
+            },
+            {
+                "diff": 0.0026492916603531023,
+                "title": "the_prince"
+            },
+            {
+                "diff": 0.004232808960672727,
+                "title": "the_time_machine"
+            },
+            {
+                "diff": 0.0012514727378878923,
+                "title": "the_trial"
+            },
+            {
+                "diff": 0.0015117648036781684,
+                "title": "through_the_looking_glass"
+            },
+            {
+                "diff": 0.0025176057126517215,
+                "title": "warlord_of_mars"
+            },
+            {
+                "diff": 0.0012528407204001654,
+                "title": "war_of_the_worlds"
+            },
+            {
+                "diff": 0.0018815791186326078,
+                "title": "wuthering_heights"
+            }
+        ],
+        "title": "the_lost_world1"
+    },
+    {
+        "diffs": [
+            {
+                "diff": 0.0009232253960958845,
+                "title": "a_connecticut_yankee_in_king_arthur_s_court1"
+            },
+            {
+                "diff": 0.0019861294362109143,
+                "title": "adventures_of_huckleberry_finn1"
+            },
+            {
+                "diff": 0.00122463483541158,
+                "title": "agnes_grey1"
+            },
+            {
+                "diff": 0.0018470874789061106,
+                "title": "alices_adventures_in_wonderland"
+            },
+            {
+                "diff": 0.0023893371468949815,
+                "title": "christmas_carol"
+            },
+            {
+                "diff": 0.0019658998948263173,
+                "title": "fanny_hill"
+            },
+            {
+                "diff": 0.0010088741943083818,
+                "title": "jane_eyre1"
+            },
+            {
+                "diff": 0.0014167946959527291,
+                "title": "king_solomons_mines"
+            },
+            {
+                "diff": 0.0029448603871470008,
+                "title": "legend_of_sleepy_hollow"
+            },
+            {
+                "diff": 0.002512705616016947,
+                "title": "metamorphosis"
+            },
+            {
+                "diff": 0.0017936151420736995,
+                "title": "tale_of_2_cities"
+            },
+            {
+                "diff": 0.0004782662349579362,
+                "title": "tales_of_terror_and_mystery1"
+            },
+            {
+                "diff": 0.001406358489141612,
+                "title": "tarzan_of_the_apes"
+            },
+            {
+                "diff": 0.0017429355055568541,
+                "title": "the_adventures_of_sherlock_holmes1"
+            },
+            {
+                "diff": 0.0021212561193508046,
+                "title": "the_adventures_of_tom_sawyer1"
+            },
+            {
+                "diff": 0.0008311698659518938,
+                "title": "the_hound_of_the_baskervilles1"
+            },
+            {
+                "diff": 0.0013343680123715715,
+                "title": "the_jungle_book"
+            },
+            {
+                "diff": 0.00021321415515052135,
+                "title": "the_land_that_time_forgot1"
+            },
+            {
+                "diff": 0.0011356517785831646,
+                "title": "the_lost_world1"
+            },
+            {
+                "diff": 0.0,
+                "title": "the_people_that_time_forgot1"
+            },
+            {
+                "diff": 0.0020735307736185673,
+                "title": "the_prince"
+            },
+            {
+                "diff": 0.0016217539786328274,
+                "title": "the_time_machine"
+            },
+            {
+                "diff": 0.0022645637125111107,
+                "title": "the_trial"
+            },
+            {
+                "diff": 0.0030877108175314813,
+                "title": "through_the_looking_glass"
+            },
+            {
+                "diff": 0.0008368472681493386,
+                "title": "warlord_of_mars"
+            },
+            {
+                "diff": 0.0007552464448463667,
+                "title": "war_of_the_worlds"
+            },
+            {
+                "diff": 0.0013677593682722327,
+                "title": "wuthering_heights"
+            }
+        ],
+        "title": "the_people_that_time_forgot1"
+    },
+    {
+        "diffs": [
+            {
+                "diff": 0.002058374444210126,
+                "title": "a_connecticut_yankee_in_king_arthur_s_court1"
+            },
+            {
+                "diff": 0.0031057441993784622,
+                "title": "adventures_of_huckleberry_finn1"
+            },
+            {
+                "diff": 0.0021935598112944074,
+                "title": "agnes_grey1"
+            },
+            {
+                "diff": 0.0026229612553174708,
+                "title": "alices_adventures_in_wonderland"
+            },
+            {
+                "diff": 0.00166351566588816,
+                "title": "christmas_carol"
+            },
+            {
+                "diff": 0.0020328199826251357,
+                "title": "fanny_hill"
+            },
+            {
+                "diff": 0.002490097210667737,
+                "title": "jane_eyre1"
+            },
+            {
+                "diff": 0.0015141440024014137,
+                "title": "king_solomons_mines"
+            },
+            {
+                "diff": 0.0020696859232953477,
+                "title": "legend_of_sleepy_hollow"
+            },
+            {
+                "diff": 0.0016684683941547481,
+                "title": "metamorphosis"
+            },
+            {
+                "diff": 0.0012738468473576198,
+                "title": "tale_of_2_cities"
+            },
+            {
+                "diff": 0.0016242429259067024,
+                "title": "tales_of_terror_and_mystery1"
+            },
+            {
+                "diff": 0.001201015309736861,
+                "title": "tarzan_of_the_apes"
+            },
+            {
+                "diff": 0.002040374366178418,
+                "title": "the_adventures_of_sherlock_holmes1"
+            },
+            {
+                "diff": 0.0016848489372602775,
+                "title": "the_adventures_of_tom_sawyer1"
+            },
+            {
+                "diff": 0.0015328880779735623,
+                "title": "the_hound_of_the_baskervilles1"
+            },
+            {
+                "diff": 0.0015062219357892352,
+                "title": "the_jungle_book"
+            },
+            {
+                "diff": 0.0020880073030407997,
+                "title": "the_land_that_time_forgot1"
+            },
+            {
+                "diff": 0.00264929166035309,
+                "title": "the_lost_world1"
+            },
+            {
+                "diff": 0.0020735307736186753,
+                "title": "the_people_that_time_forgot1"
+            },
+            {
+                "diff": 0.0,
+                "title": "the_prince"
+            },
+            {
+                "diff": 0.0032957051645923917,
+                "title": "the_time_machine"
+            },
+            {
+                "diff": 0.002249778530326445,
+                "title": "the_trial"
+            },
+            {
+                "diff": 0.0045748254007278565,
+                "title": "through_the_looking_glass"
+            },
+            {
+                "diff": 0.002094503894464905,
+                "title": "warlord_of_mars"
+            },
+            {
+                "diff": 0.0022489425286871456,
+                "title": "war_of_the_worlds"
+            },
+            {
+                "diff": 0.00231368733893048,
+                "title": "wuthering_heights"
+            }
+        ],
+        "title": "the_prince"
+    },
+    {
+        "diffs": [
+            {
+                "diff": 0.0033407757600074054,
+                "title": "a_connecticut_yankee_in_king_arthur_s_court1"
+            },
+            {
+                "diff": 0.00342175513021654,
+                "title": "adventures_of_huckleberry_finn1"
+            },
+            {
+                "diff": 0.00260600066918242,
+                "title": "agnes_grey1"
+            },
+            {
+                "diff": 0.003449556158664702,
+                "title": "alices_adventures_in_wonderland"
+            },
+            {
+                "diff": 0.0017577926916198965,
+                "title": "christmas_carol"
+            },
+            {
+                "diff": 0.0013835302417559167,
+                "title": "fanny_hill"
+            },
+            {
+                "diff": 0.0023088801082928353,
+                "title": "jane_eyre1"
+            },
+            {
+                "diff": 0.0010168037340969418,
+                "title": "king_solomons_mines"
+            },
+            {
+                "diff": 0.002389409794877145,
+                "title": "legend_of_sleepy_hollow"
+            },
+            {
+                "diff": 0.0046263149049318554,
+                "title": "metamorphosis"
+            },
+            {
+                "diff": 0.0013257893885880543,
+                "title": "tale_of_2_cities"
+            },
+            {
+                "diff": 0.001976657300642348,
+                "title": "tales_of_terror_and_mystery1"
+            },
+            {
+                "diff": 0.0024743719907589956,
+                "title": "tarzan_of_the_apes"
+            },
+            {
+                "diff": 0.0011464359867068348,
+                "title": "the_adventures_of_sherlock_holmes1"
+            },
+            {
+                "diff": 0.0019470383654774308,
+                "title": "the_adventures_of_tom_sawyer1"
+            },
+            {
+                "diff": 0.0022705068472389624,
+                "title": "the_hound_of_the_baskervilles1"
+            },
+            {
+                "diff": 0.00325287377127041,
+                "title": "the_jungle_book"
+            },
+            {
+                "diff": 0.0013746644198368548,
+                "title": "the_land_that_time_forgot1"
+            },
+            {
+                "diff": 0.004232808960672728,
+                "title": "the_lost_world1"
+            },
+            {
+                "diff": 0.0016217539786328276,
+                "title": "the_people_that_time_forgot1"
+            },
+            {
+                "diff": 0.003295705164592398,
+                "title": "the_prince"
+            },
+            {
+                "diff": 0.0,
+                "title": "the_time_machine"
+            },
+            {
+                "diff": 0.005526501477346207,
+                "title": "the_trial"
+            },
+            {
+                "diff": 0.0069712255623122395,
+                "title": "through_the_looking_glass"
+            },
+            {
+                "diff": 0.0009385997556682963,
+                "title": "warlord_of_mars"
+            },
+            {
+                "diff": 0.002060891987403393,
+                "title": "war_of_the_worlds"
+            },
+            {
+                "diff": 0.0033601987904938184,
+                "title": "wuthering_heights"
+            }
+        ],
+        "title": "the_time_machine"
+    },
+    {
+        "diffs": [
+            {
+                "diff": 0.0013424957888865177,
+                "title": "a_connecticut_yankee_in_king_arthur_s_court1"
+            },
+            {
+                "diff": 0.0026813400858422915,
+                "title": "adventures_of_huckleberry_finn1"
+            },
+            {
+                "diff": 0.0023412741500607745,
+                "title": "agnes_grey1"
+            },
+            {
+                "diff": 0.0018139541440727175,
+                "title": "alices_adventures_in_wonderland"
+            },
+            {
+                "diff": 0.003737687512231592,
+                "title": "christmas_carol"
+            },
+            {
+                "diff": 0.004617584554466204,
+                "title": "fanny_hill"
+            },
+            {
+                "diff": 0.0021869388824389095,
+                "title": "jane_eyre1"
+            },
+            {
+                "diff": 0.003654002416019252,
+                "title": "king_solomons_mines"
+            },
+            {
+                "diff": 0.005163254631402871,
+                "title": "legend_of_sleepy_hollow"
+            },
+            {
+                "diff": 0.0013467439813494347,
+                "title": "metamorphosis"
+            },
+            {
+                "diff": 0.00340100854760158,
+                "title": "tale_of_2_cities"
+            },
+            {
+                "diff": 0.0014695722195424022,
+                "title": "tales_of_terror_and_mystery1"
+            },
+            {
+                "diff": 0.002272063654768365,
+                "title": "tarzan_of_the_apes"
+            },
+            {
+                "diff": 0.0036538491826234717,
+                "title": "the_adventures_of_sherlock_holmes1"
+            },
+            {
+                "diff": 0.0032568966806472387,
+                "title": "the_adventures_of_tom_sawyer1"
+            },
+            {
+                "diff": 0.0014477565676932148,
+                "title": "the_hound_of_the_baskervilles1"
+            },
+            {
+                "diff": 0.001432954056811346,
+                "title": "the_jungle_book"
+            },
+            {
+                "diff": 0.0024649500572533688,
+                "title": "the_land_that_time_forgot1"
+            },
+            {
+                "diff": 0.0012514727378879066,
+                "title": "the_lost_world1"
+            },
+            {
+                "diff": 0.0022645637125111536,
+                "title": "the_people_that_time_forgot1"
+            },
+            {
+                "diff": 0.002249778530326459,
+                "title": "the_prince"
+            },
+            {
+                "diff": 0.00552650147734621,
+                "title": "the_time_machine"
+            },
+            {
+                "diff": 0.0,
+                "title": "the_trial"
+            },
+            {
+                "diff": 0.0015025839497416122,
+                "title": "through_the_looking_glass"
+            },
+            {
+                "diff": 0.003702842931474629,
+                "title": "warlord_of_mars"
+            },
+            {
+                "diff": 0.0025441705525618974,
+                "title": "war_of_the_worlds"
+            },
+            {
+                "diff": 0.0017425909186074965,
+                "title": "wuthering_heights"
+            }
+        ],
+        "title": "the_trial"
+    },
+    {
+        "diffs": [
+            {
+                "diff": 0.001673815847147024,
+                "title": "a_connecticut_yankee_in_king_arthur_s_court1"
+            },
+            {
+                "diff": 0.0031068500880936842,
+                "title": "adventures_of_huckleberry_finn1"
+            },
+            {
+                "diff": 0.00331100019795924,
+                "title": "agnes_grey1"
+            },
+            {
+                "diff": 0.0013193511391244896,
+                "title": "alices_adventures_in_wonderland"
+            },
+            {
+                "diff": 0.005702709389230356,
+                "title": "christmas_carol"
+            },
+            {
+                "diff": 0.006835360275214303,
+                "title": "fanny_hill"
+            },
+            {
+                "diff": 0.002834892015353054,
+                "title": "jane_eyre1"
+            },
+            {
+                "diff": 0.00534213774871287,
+                "title": "king_solomons_mines"
+            },
+            {
+                "diff": 0.0071773812606376235,
+                "title": "legend_of_sleepy_hollow"
+            },
+            {
+                "diff": 0.0034404216900410112,
+                "title": "metamorphosis"
+            },
+            {
+                "diff": 0.005337681507295178,
+                "title": "tale_of_2_cities"
+            },
+            {
+                "diff": 0.002538043634415585,
+                "title": "tales_of_terror_and_mystery1"
+            },
+            {
+                "diff": 0.003930201568758383,
+                "title": "tarzan_of_the_apes"
+            },
+            {
+                "diff": 0.005507470314676119,
+                "title": "the_adventures_of_sherlock_holmes1"
+            },
+            {
+                "diff": 0.004904692262827127,
+                "title": "the_adventures_of_tom_sawyer1"
+            },
+            {
+                "diff": 0.002698321817229179,
+                "title": "the_hound_of_the_baskervilles1"
+            },
+            {
+                "diff": 0.0024192201503091797,
+                "title": "the_jungle_book"
+            },
+            {
+                "diff": 0.003287469511755993,
+                "title": "the_land_that_time_forgot1"
+            },
+            {
+                "diff": 0.0015117648036781805,
+                "title": "the_lost_world1"
+            },
+            {
+                "diff": 0.0030877108175314818,
+                "title": "the_people_that_time_forgot1"
+            },
+            {
+                "diff": 0.004574825400727793,
+                "title": "the_prince"
+            },
+            {
+                "diff": 0.006971225562312239,
+                "title": "the_time_machine"
+            },
+            {
+                "diff": 0.0015025839497416254,
+                "title": "the_trial"
+            },
+            {
+                "diff": 0.0,
+                "title": "through_the_looking_glass"
+            },
+            {
+                "diff": 0.005363337288397013,
+                "title": "warlord_of_mars"
+            },
+            {
+                "diff": 0.0030897169145587796,
+                "title": "war_of_the_worlds"
+            },
+            {
+                "diff": 0.002448381425575818,
+                "title": "wuthering_heights"
+            }
+        ],
+        "title": "through_the_looking_glass"
+    },
+    {
+        "diffs": [
+            {
+                "diff": 0.002533018564617577,
+                "title": "a_connecticut_yankee_in_king_arthur_s_court1"
+            },
+            {
+                "diff": 0.0037369425692049384,
+                "title": "adventures_of_huckleberry_finn1"
+            },
+            {
+                "diff": 0.0024899666343447878,
+                "title": "agnes_grey1"
+            },
+            {
+                "diff": 0.0028546478775637583,
+                "title": "alices_adventures_in_wonderland"
+            },
+            {
+                "diff": 0.00202063472599243,
+                "title": "christmas_carol"
+            },
+            {
+                "diff": 0.0015212693360928328,
+                "title": "fanny_hill"
+            },
+            {
+                "diff": 0.0022238238027929734,
+                "title": "jane_eyre1"
+            },
+            {
+                "diff": 0.0010390486480881952,
+                "title": "king_solomons_mines"
+            },
+            {
+                "diff": 0.001944614556772025,
+                "title": "legend_of_sleepy_hollow"
+            },
+            {
+                "diff": 0.0033166138778337687,
+                "title": "metamorphosis"
+            },
+            {
+                "diff": 0.001343510084147646,
+                "title": "tale_of_2_cities"
+            },
+            {
+                "diff": 0.00111949774445313,
+                "title": "tales_of_terror_and_mystery1"
+            },
+            {
+                "diff": 0.0011761339826526812,
+                "title": "tarzan_of_the_apes"
+            },
+            {
+                "diff": 0.0014065611894347096,
+                "title": "the_adventures_of_sherlock_holmes1"
+            },
+            {
+                "diff": 0.002199949901270522,
+                "title": "the_adventures_of_tom_sawyer1"
+            },
+            {
+                "diff": 0.0013776338496278128,
+                "title": "the_hound_of_the_baskervilles1"
+            },
+            {
+                "diff": 0.0021391200577470125,
+                "title": "the_jungle_book"
+            },
+            {
+                "diff": 0.0008296365516374487,
+                "title": "the_land_that_time_forgot1"
+            },
+            {
+                "diff": 0.0025176057126517215,
+                "title": "the_lost_world1"
+            },
+            {
+                "diff": 0.0008368472681493387,
+                "title": "the_people_that_time_forgot1"
+            },
+            {
+                "diff": 0.0020945038944649363,
+                "title": "the_prince"
+            },
+            {
+                "diff": 0.0009385997556682947,
+                "title": "the_time_machine"
+            },
+            {
+                "diff": 0.0037028429314746297,
+                "title": "the_trial"
+            },
+            {
+                "diff": 0.005363337288397014,
+                "title": "through_the_looking_glass"
+            },
+            {
+                "diff": 0.0,
+                "title": "warlord_of_mars"
+            },
+            {
+                "diff": 0.0011626111770966785,
+                "title": "war_of_the_worlds"
+            },
+            {
+                "diff": 0.002901649766408902,
+                "title": "wuthering_heights"
+            }
+        ],
+        "title": "warlord_of_mars"
+    },
+    {
+        "diffs": [
+            {
+                "diff": 0.001149381173529772,
+                "title": "a_connecticut_yankee_in_king_arthur_s_court1"
+            },
+            {
+                "diff": 0.002579576762441854,
+                "title": "adventures_of_huckleberry_finn1"
+            },
+            {
+                "diff": 0.0027188346504817204,
+                "title": "agnes_grey1"
+            },
+            {
+                "diff": 0.001991710068429373,
+                "title": "alices_adventures_in_wonderland"
+            },
+            {
+                "diff": 0.0027095153280564423,
+                "title": "christmas_carol"
+            },
+            {
+                "diff": 0.0030306522129852115,
+                "title": "fanny_hill"
+            },
+            {
+                "diff": 0.0022283293835445974,
+                "title": "jane_eyre1"
+            },
+            {
+                "diff": 0.0018152890002158745,
+                "title": "king_solomons_mines"
+            },
+            {
+                "diff": 0.0021286623956295434,
+                "title": "legend_of_sleepy_hollow"
+            },
+            {
+                "diff": 0.0030011618311904867,
+                "title": "metamorphosis"
+            },
+            {
+                "diff": 0.002124447523128843,
+                "title": "tale_of_2_cities"
+            },
+            {
+                "diff": 0.0009346880290452307,
+                "title": "tales_of_terror_and_mystery1"
+            },
+            {
+                "diff": 0.0011495766759287624,
+                "title": "tarzan_of_the_apes"
+            },
+            {
+                "diff": 0.002739285108568087,
+                "title": "the_adventures_of_sherlock_holmes1"
+            },
+            {
+                "diff": 0.0024718396988179262,
+                "title": "the_adventures_of_tom_sawyer1"
+            },
+            {
+                "diff": 0.0014352339504232407,
+                "title": "the_hound_of_the_baskervilles1"
+            },
+            {
+                "diff": 0.0010190674924294085,
+                "title": "the_jungle_book"
+            },
+            {
+                "diff": 0.0007975449856597848,
+                "title": "the_land_that_time_forgot1"
+            },
+            {
+                "diff": 0.0012528407204001678,
+                "title": "the_lost_world1"
+            },
+            {
+                "diff": 0.0007552464448463686,
+                "title": "the_people_that_time_forgot1"
+            },
+            {
+                "diff": 0.00224894252868713,
+                "title": "the_prince"
+            },
+            {
+                "diff": 0.0020608919874033804,
+                "title": "the_time_machine"
+            },
+            {
+                "diff": 0.0025441705525618597,
+                "title": "the_trial"
+            },
+            {
+                "diff": 0.0030897169145587787,
+                "title": "through_the_looking_glass"
+            },
+            {
+                "diff": 0.0011626111770966843,
+                "title": "warlord_of_mars"
+            },
+            {
+                "diff": 0.0,
+                "title": "war_of_the_worlds"
+            },
+            {
+                "diff": 0.0025658983638778515,
+                "title": "wuthering_heights"
+            }
+        ],
+        "title": "war_of_the_worlds"
+    },
+    {
+        "diffs": [
+            {
+                "diff": 0.0010304715509287074,
+                "title": "a_connecticut_yankee_in_king_arthur_s_court1"
+            },
+            {
+                "diff": 0.0011660448822849118,
+                "title": "adventures_of_huckleberry_finn1"
+            },
+            {
+                "diff": 0.00040708840902021505,
+                "title": "agnes_grey1"
+            },
+            {
+                "diff": 0.001755198987721034,
+                "title": "alices_adventures_in_wonderland"
+            },
+            {
+                "diff": 0.0025137475900026043,
+                "title": "christmas_carol"
+            },
+            {
+                "diff": 0.0024998996950987683,
+                "title": "fanny_hill"
+            },
+            {
+                "diff": 0.0003372855698629861,
+                "title": "jane_eyre1"
+            },
+            {
+                "diff": 0.00228257740493014,
+                "title": "king_solomons_mines"
+            },
+            {
+                "diff": 0.004536853098156567,
+                "title": "legend_of_sleepy_hollow"
+            },
+            {
+                "diff": 0.0019925809888189684,
+                "title": "metamorphosis"
+            },
+            {
+                "diff": 0.002130413278889016,
+                "title": "tale_of_2_cities"
+            },
+            {
+                "diff": 0.001207333942566456,
+                "title": "tales_of_terror_and_mystery1"
+            },
+            {
+                "diff": 0.002524569921401502,
+                "title": "tarzan_of_the_apes"
+            },
+            {
+                "diff": 0.0019248514292904502,
+                "title": "the_adventures_of_sherlock_holmes1"
+            },
+            {
+                "diff": 0.0019526381945935368,
+                "title": "the_adventures_of_tom_sawyer1"
+            },
+            {
+                "diff": 0.0010992388137991305,
+                "title": "the_hound_of_the_baskervilles1"
+            },
+            {
+                "diff": 0.0016632755165251287,
+                "title": "the_jungle_book"
+            },
+            {
+                "diff": 0.0014334518388860271,
+                "title": "the_land_that_time_forgot1"
+            },
+            {
+                "diff": 0.0018815791186326078,
+                "title": "the_lost_world1"
+            },
+            {
+                "diff": 0.0013677593682722272,
+                "title": "the_people_that_time_forgot1"
+            },
+            {
+                "diff": 0.0023136873389304684,
+                "title": "the_prince"
+            },
+            {
+                "diff": 0.0033601987904938184,
+                "title": "the_time_machine"
+            },
+            {
+                "diff": 0.001742590918607497,
+                "title": "the_trial"
+            },
+            {
+                "diff": 0.0024483814255758084,
+                "title": "through_the_looking_glass"
+            },
+            {
+                "diff": 0.0029016497664089017,
+                "title": "warlord_of_mars"
+            },
+            {
+                "diff": 0.002565898363877858,
+                "title": "war_of_the_worlds"
+            },
+            {
+                "diff": 0.0,
+                "title": "wuthering_heights"
+            }
+        ],
+        "title": "wuthering_heights"
+    }
+]

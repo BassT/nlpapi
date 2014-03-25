@@ -346,4 +346,23 @@ def genre_attribution(text):
     
     return best_match
     
+def compute_diff(from_book, to_book):
     
+    from_seqs = from_book["n-gram"]["sequences"]
+    from_freqs = from_book["n-gram"]["frequencies"]
+    to_seqs = to_book["n-gram"]["sequences"]
+    to_freqs = to_book["n-gram"]["frequencies"]
+    
+    diff = 0
+    
+    for i in range(0, len(from_seqs)):
+        if from_seqs[i] in to_seqs:
+            diff += (from_freqs[i] - to_freqs[to_seqs.index(from_seqs[i])]) ** 2
+        else:
+            diff += from_freqs[i] ** 2
+    
+    for i in range (0, len(to_seqs)):
+        if to_seqs[i] not in from_seqs:
+            diff += to_freqs[i] ** 2
+            
+    return diff

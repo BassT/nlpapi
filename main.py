@@ -4,7 +4,8 @@ from urllib import urlopen
 
 from bottle import route, run, request, template, response
 
-from analysis import analyze_text, initialize_third_order_matrix, analyze_text_third_order_responsive, compute_most_probable_digraph
+from analysis import analyze_text, initialize_third_order_matrix, analyze_text_third_order_responsive, compute_most_probable_digraph,\
+	author_attribution
 
 
 @route('/')
@@ -120,7 +121,19 @@ def author():
 	from our database. The database consists of the text listed at:
 	https://wiki.eecs.yorku.ca/course_archive/2013-14/W/6339/assignments:start
 	"""
-	#TODO
-	pass
+	
+	callback = request.query.callback
+	text_link = request.query.txt
+	
+	print "/author with callback=" + callback + " text_link=" + text_link
+	
+	response.set_header("Access-Control-Allow-Origin", "*")
+	yield callback
+	
+	text = urlopen(text_link).read()
+	author = author_attribution(text)
+	
+	yield "( 'author': " + author + ")"
+	return
 
 run(host='0.0.0.0', port=int(os.environ.get("PORT", 5000)))

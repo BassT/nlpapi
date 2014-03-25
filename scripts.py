@@ -86,3 +86,34 @@ def set_up_genre_data():
             dump(genre["1-gram-unique"], outfile)
     
     print "The catalog: " + dumps(genres, sort_keys=True, indent=4, separators=(',', ': '))
+    
+def book_to_book_corr():
+    
+    file_list = open("res/filenames.txt").readlines()
+    books = []
+    
+    diffs = []
+    
+    for filename in file_list:
+        filename = filename.split(",")[0]
+        print "Loading " + filename
+        text = open("res/" + filename).read().replace("/r/n", " ").replace("/n", " ").replace("/r", " ")
+        n_gram = analysis.compute_n_gram_words(1, text)
+        books.append( { "title": filename.split(".")[0], "n-gram": n_gram } )
+    for from_book in books:
+        print "Comparing " + from_book["title"] + " to ..."
+        current_diffs = []
+        for to_book in books:
+            print "... " + to_book["title"]
+            current_diffs.append( { "title": to_book["title"], "diff": analysis.compute_diff(from_book, to_book) })
+        diffs.append( { "title": from_book["title"], "diffs": current_diffs } )
+        
+    print "Correlations: " + dumps(diffs, sort_keys=True, indent=4, separators=(",", ": "))
+    
+    with open("res/book-to-book", "w") as outfile:
+        dump(diffs, outfile, sort_keys=True, indent=4, separators=(",", ": "))
+
+book_to_book_corr()
+        
+        
+    
